@@ -1,0 +1,119 @@
+{
+  "prepared_on": "2026-11-03",
+  "url_weight": 23,
+  "publication_status": "Drafts only; not scheduled or submitted.",
+  "posts": [
+    {
+      "id": "launch-a",
+      "label": "A / sharp clarity gap",
+      "status": "draft",
+      "weighted_characters": 218,
+      "text": "Your AI-built landing page looks like a startup.\nBut can anyone explain what you sell?\n\nI built 3 open-source skills for the story, audience, and offer.\n\nSame facts. Same design. Three pitches.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "launch-b",
+      "label": "B / demo-first",
+      "status": "draft",
+      "weighted_characters": 211,
+      "text": "One product. Three pitches. Same facts and design.\n\nLanding Page Lab helps your coding agent explain the product, choose its audience, and clarify the offer.\n\nOpen source. Built by Jazz.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "launch-c",
+      "label": "C / problem-first",
+      "status": "draft",
+      "weighted_characters": 207,
+      "text": "A polished page can still leave people asking: what is this, is it for me, and what do I get?\n\nI built 3 open-source skills to work through those decisions.\n\nLanding Page Lab by Jazz:\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d02",
+      "label": "Story",
+      "status": "draft",
+      "weighted_characters": 198,
+      "text": "Your README explains what you built. Does your first screen explain what someone can do with it?\n\nStory starts with the customer's task, then works toward a clear next step.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d03",
+      "label": "Resonance",
+      "status": "draft",
+      "weighted_characters": 206,
+      "text": "A page for 'everyone who wants to be productive' leaves the hard decision to the reader.\n\nResonance asks who this is for, what matters to them, and who should choose something else.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d04",
+      "label": "Offer",
+      "status": "draft",
+      "weighted_characters": 210,
+      "text": "Before writing a stronger promise, explain the actual offer:\n\nWhat do I get?\nWhat must I do?\nWhat are the terms?\nWhat is still unknown?\n\nThat's the job of Landing Page Lab's Offer skill.\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d05",
+      "label": "RelayNote case",
+      "status": "draft",
+      "weighted_characters": 235,
+      "text": "One Product, Three Pitches #1: RelayNote.\n\nStory: revisit the interview.\nResonance: focus on solo founders.\nOffer: show the notes-to-export workflow.\n\nFictional product. Authored examples. Same facts and design.\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d06",
+      "label": "Evidence",
+      "status": "draft",
+      "weighted_characters": 198,
+      "text": "'Saves 10 hours a week' is easy to write. Where did the number come from?\n\nLanding Page Lab keeps unsupported claims visible as gaps. A better sentence still needs evidence.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d07",
+      "label": "Clinic invitation",
+      "status": "draft",
+      "weighted_characters": 227,
+      "text": "Bring a public README, one intended buyer, and one real next step.\n\nI'm inviting Founder Clinic submissions for One Product, Three Pitches. Selected cases get the drafts and reasoning. No star required.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d08",
+      "label": "ShipWatch case",
+      "status": "draft",
+      "weighted_characters": 214,
+      "text": "One Product, Three Pitches #2: ShipWatch.\n\nA missed heartbeat is a concrete problem. 'Advanced observability' hides it.\n\nFictional product. Authored examples. No uptime or conversion claim.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d09",
+      "label": "Workflow boundary",
+      "status": "draft",
+      "weighted_characters": 210,
+      "text": "The demo prepares a prompt in your browser. Your coding agent runs the work.\n\nI want the handoff to be inspectable: source facts, decisions, copy, evidence gaps, and what to build next.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d10",
+      "label": "Slotwise case",
+      "status": "draft",
+      "weighted_characters": 227,
+      "text": "One Product, Three Pitches #3: Slotwise.\n\nA solo consultant needs a client to choose a time. The pitch should explain that before promising a scheduling revolution.\n\nFictional product. Authored examples.\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d11",
+      "label": "Failure invitation",
+      "status": "draft",
+      "weighted_characters": 213,
+      "text": "The most useful bug report for a writing skill:\n\n1. The public source brief.\n2. What the agent wrote.\n3. The assumption it got wrong.\n\nA reproducible bad decision can improve the next run.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d12",
+      "label": "Comparison question",
+      "status": "draft",
+      "weighted_characters": 226,
+      "text": "A better headline can mean three different things:\n\nI understand the product.\nI recognize my situation.\nI can evaluate the commitment.\n\nStory, Resonance, Offer. Which question does your page leave open?\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d13",
+      "label": "Try one skill",
+      "status": "draft",
+      "weighted_characters": 199,
+      "text": "You don't need to rebuild your page to try Landing Page Lab.\n\nPick one skill. Audit one hero. Keep the same product facts, design, and CTA. Then inspect what changed and why.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "d14",
+      "label": "Follow the work",
+      "status": "draft",
+      "weighted_characters": 229,
+      "text": "Landing Page Lab is built around a small loop: show the facts, try a pitch, inspect the decisions, fix the mistakes.\n\nIf that is useful to your work, try a skill or star the repo to follow the next cases.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    }
+  ]
+}

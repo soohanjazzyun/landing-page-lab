@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Resonance"
+  short_description: "Make the right readers recognize their situation"
+  default_prompt: "Use $landing-page-resonance to sharpen who my landing page is for, write audience-specific copy, and give me a build handoff."

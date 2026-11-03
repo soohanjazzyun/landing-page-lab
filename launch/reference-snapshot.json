@@ -1,0 +1,25 @@
+{
+  "captured_date": "2026-11-03",
+  "kind": "public_cumulative_repository_snapshot_not_launch_attribution",
+  "sources": [
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "stars": 58207,
+      "captured_at_utc": "2026-11-03T12:03:40.854249+00:00",
+      "source_url": "https://api.github.com/repos/coreyhaines31/marketingskills"
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "stars": 101051,
+      "captured_at_utc": "2026-11-03T12:03:41.221321+00:00",
+      "source_url": "https://api.github.com/repos/pbakaus/impeccable"
+    },
+    {
+      "repository": "wondelai/skills",
+      "stars": 2568,
+      "captured_at_utc": "2026-11-03T12:03:41.620265+00:00",
+      "source_url": "https://api.github.com/repos/wondelai/skills"
+    }
+  ],
+  "limits": "Cumulative stars change; these observations do not establish post-level attribution, engagement, installs, active use, or a forecast for Landing Page Lab."
+}

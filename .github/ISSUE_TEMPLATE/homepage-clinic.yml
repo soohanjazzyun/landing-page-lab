@@ -1,0 +1,67 @@
+name: Founder Clinic
+description: Submit a public-safe product for One Product, Three Pitches.
+title: "[Clinic] "
+labels: ["homepage-clinic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your issue becomes public when you submit it. Share only material you
+        own or can authorize. Selection depends on learning value and capacity;
+        no star, share, purchase, or positive review is required. A submission
+        is not a guarantee of a review or a commercial result. Broader case
+        publication needs your approval of the exact draft and media.
+  - type: input
+    id: product
+    attributes:
+      label: Product name and public source URL
+      description: A public README or current landing page; no private login links.
+    validations:
+      required: true
+  - type: textarea
+    id: customer
+    attributes:
+      label: Who is this for, and what task are they trying to complete?
+      description: Name one intended buyer and their concrete situation. Mark guesses.
+    validations:
+      required: true
+  - type: input
+    id: action
+    attributes:
+      label: What is the real primary next action?
+      description: Include the exact CTA and any actual commitment or terms.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Current copy, shipped facts, evidence, and unknowns
+      description: Include public terms and constraints. No secrets, customer data, invented metrics, or claims you cannot support.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: What should stay the same?
+      description: Existing design, stack, CTA, audience decisions, exclusions, or other limits.
+  - type: dropdown
+    id: publication
+    attributes:
+      label: Would you like a separate review for possible case publication?
+      description: This answer does not authorize a promotional case, quote, or social post.
+      options:
+        - "No. Keep discussion in this public issue."
+        - "Yes. Send me the exact case draft and media for a separate decision."
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Preferred public credit and link, if a case is later approved
+  - type: checkboxes
+    id: authority
+    attributes:
+      label: Public submission check
+      options:
+        - label: I own this material or have authority to submit it publicly, and I have removed secrets and private personal/customer data.
+          required: true

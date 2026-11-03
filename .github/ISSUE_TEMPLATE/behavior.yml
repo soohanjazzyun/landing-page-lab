@@ -1,0 +1,48 @@
+name: Wrong decision or behavior
+description: Show a reproducible problem in a skill, demo, or install path.
+title: "[Behavior] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Use the smallest public-safe brief that reproduces
+        the problem. Remove secrets and personal/customer data. A copy preference
+        or an AI score is not a measured conversion result.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Which skill or component?
+      options:
+        - landing-page-story
+        - landing-page-resonance
+        - landing-page-offer
+        - Website or prompt composer
+        - Installation or packaging
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version, commit, and agent/model if known
+  - type: textarea
+    id: source
+    attributes:
+      label: Smallest public-safe source and exact request
+      description: Include facts, constraints, and relevant unknowns. Link a permitted public source if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Actual output or steps to reproduce
+      description: Mark raw output versus your manual edits. For UI issues include the actual steps and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What went wrong, and what should have happened?
+      description: Point to the wrong assumption or behavior and the evidence that supports the correction.
+    validations:
+      required: true

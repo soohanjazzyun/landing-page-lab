@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Story"
+  short_description: "Turn product facts into a clear landing page"
+  default_prompt: "Use $landing-page-story to turn my README into a customer-first landing-page structure, copy, and implementation prompt."

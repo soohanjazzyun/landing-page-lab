@@ -1,0 +1,24 @@
+{
+  "name": "landing-page-lab",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Same product, three distinct landing-page directions: story, audience, and offer. Independent open-source agent skills by Jazz.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "brief": "node scripts/brief.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/brief.test.mjs",
+    "test:package": "node --test tests/package.test.mjs",
+    "test:browser": "playwright test",
+    "package": "node scripts/package.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1"
+  }
+}

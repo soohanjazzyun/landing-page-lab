@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Offer"
+  short_description: "Make value and the next commitment easy to judge"
+  default_prompt: "Use $landing-page-offer to clarify my real offer, remove unsupported promises, and write page copy with a build handoff."

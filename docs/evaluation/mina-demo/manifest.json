@@ -1,0 +1,20 @@
+{
+  "captured_at_utc": "2026-11-03T23:40:40.381323+00:00",
+  "case_type": "actual independent agent execution on a fictional service brief; not a customer or conversion result",
+  "recorded_files": {
+    "source.md": "5700fcb5ac120379296a16ec94c4e92f42e3ea29ad66e6a1078a3be765e40165",
+    "task.md": "00dec1a0465d52ea2f92b4ea4032e6ae51d7b8fbd2c7a83b2023b1d2adf7f5d3",
+    "output.md": "61070c849e28620636b01334c5d1dcd809f01238360cf65ceb4a6d7615d94f18",
+    "run-notes.md": "63e0dc45351a41ae61eeb8fa0d921c7fd1ba9103cc330ac40a15cd4a76001d3f"
+  },
+  "instruction_files": {
+    "../../../skills/landing-page-story/SKILL.md": "19dc512ec15f5efedf351017d80f198edfc7b9da36c46eb7618cc550f91ab226",
+    "../../../skills/landing-page-resonance/SKILL.md": "1af65e767f13834b1133f56d24d1776195ef401954502f5a50aa97441ad9b35e",
+    "../../../skills/landing-page-offer/SKILL.md": "fd6a6a31295de1868e4fffc3136a1a30fbabf2201b81abb6718f1dea9726f807",
+    "../../../skills/landing-page-story/references/story-and-evidence.md": "f44bd78989160260c7cebaacabe3c270789c2f43a91359458381e971888f144c",
+    "../../../skills/landing-page-offer/references/judgment-and-examples.md": "ee9e2f7663e7da94397ef04d34768d1057892652f6017258801dc579fc7077e7"
+  },
+  "execution": "Fresh sub-agent with no authoring conversation; output preserved without editorial revision",
+  "randomness_note": "A rerun may produce different copy; source, instructions and recorded output are inspectable.",
+  "instruction_commit": "00f28fb704f5dd25c78a5db6ad58873ed86c30d3"
+}

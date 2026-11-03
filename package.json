@@ -15,7 +15,8 @@
     "test:package": "node --test tests/package.test.mjs",
     "test:browser": "playwright test",
     "package": "node scripts/package.mjs",
-    "verify:public": "node scripts/verify-public.mjs"
+    "verify:public": "node scripts/verify-public.mjs",
+    "verify:cases": "node scripts/verify-cases.mjs"
   },
   "license": "MIT",
   "devDependencies": {

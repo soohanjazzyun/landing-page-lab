@@ -131,6 +131,17 @@
       "weighted_characters": 203,
       "text": "Your AI put a gradient on your README.\n\nI built Landing Page Lab: 3 open-source agent skills for the story, audience, and offer.\n\nWatch the pitch change. Same facts. Same design.\n\nhttps://github.com/soohanjazzyun/landing-page-lab",
       "public_url": "https://x.com/Jazz_from_Korea/status/2117600499033928157"
+    },
+    {
+      "id": "face-proof",
+      "label": "Marketing department / portrait-led recorded run",
+      "status": "draft",
+      "weighted_characters": 259,
+      "text": "I gave my coding agent a marketing department.\n\n3 free, open-source skills inspired by Donald Miller, Seth Godin & Alex Hormozi.\n\nSame photo. Same layout. Three different pitches.\n\nThe brief, prompt, and actual output are in the repo.\n\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "asset": "assets/mina-studio-proof.mp4",
+      "case_url": "https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/",
+      "evidence": "Actual agent run on a fictional brief; AI-generated portrait; no conversion or copywriter-replacement claim."
     }
-  ]
+  ],
+  "updated_on": "2026-11-04"
 }

@@ -1,7 +1,30 @@
 # Evaluation record: Landing Page Lab 0.2.0
 
-Date: 2026-11-03. Authored examples, actual agent trials, software checks,
+Updated: 2026-11-04. Authored examples, actual agent trials, software checks,
 and real-world marketing outcomes are different kinds of evidence.
+
+## Recorded hero runs: 2026-11-04
+
+Two fresh evaluators without the authoring conversation completed narrow hero tasks:
+
+| Input | Task and preserved output | Scope of evidence |
+| --- | --- | --- |
+| [Current Landing Page Lab snapshot](evaluation/current-page/source.md) from commit `00f28fb` | [Task](evaluation/current-page/task.md), [raw output](evaluation/current-page/output.md), [read/action record](evaluation/current-page/run-notes.md) | An actual audit of the maintainer's own real page. Both CTA labels and anchors were preserved. The recommendation has not been tested with readers. |
+| [Fictional Mina Studio service brief](evaluation/mina-demo/source.md) | [Task](evaluation/mina-demo/task.md), [raw output](evaluation/mina-demo/output.md), [read/action record](evaluation/mina-demo/run-notes.md) | Three actual skill recommendations from the same fictional source. Story explains the flow-to-design process, Resonance addresses an existing-product founder, and Offer leads with a defined handoff. This is not customer work. |
+
+The first completed outputs are retained without editorial rewriting. Each
+run's manifest records source, task, output, and instruction/reference hashes.
+The current-page snapshot keeps the original README's repository-root link
+semantics, declared in its manifest. `npm run verify:cases` checks recorded
+bytes, original source/instruction blobs in the recorded Git commit, and the
+Mina page's exported evidence. Run it from a full Git checkout with the recorded
+commit available. To rerun the writing task, use that commit's skill files and
+the preserved source/task in a fresh agent session. It does not score the copy or
+establish that another model run will return the same words.
+
+The [Mina portrait](mina-portrait.md) was generated separately. Neither its
+appearance nor the fictional persona supplies evidence about customer results,
+the skill's quality, conversion, or GitHub growth.
 
 ## Current three-skill behavioral trial
 
@@ -28,11 +51,16 @@ repository-relative source paths.
 - All three skill packages pass Skill Creator's structural validator.
 - `npm test`: 4 task-preparation tests, including selected/all instructions,
   preserved source fences, invalid input, and refusing destructive output.
-- Browser suite: 13 scenarios pass, including nine distinct directions,
+- Browser suite: 17 scenarios passed in the 2026-11-04 run, including the four
+  Mina comparisons/records tests and the existing 13 site scenarios. Mina's
+  visible headings and paragraphs match the recorded output exactly; its
+  query links, browser history, keyboard controls, real sample target, four
+  byte-identical evidence downloads, portrait loading, and 390/1280px automated
+  WCAG A/AA checks passed. The existing scenarios cover nine distinct directions,
   matching full copy/handoffs, direct comparison links, all/single local
   prompts, clipboard fallback, stale export invalidation, four viewport
-  widths, automated WCAG A/AA checks, and all four ZIP downloads. The first
-  run exposed two test assumptions (a disclosure's wording and same-document
+  widths, automated WCAG A/AA checks, and all four ZIP downloads. The earlier
+  2026-11-03 run exposed two test assumptions (a disclosure's wording and same-document
   hash navigation); correcting those fixtures and rerunning the two cases
   passed. These were not observed product behavior defects.
 - `npm run test:package`: stale deployment files are removed; all four ZIPs

@@ -18,6 +18,14 @@ async function files(dir) {
   return all;
 }
 const all = await files(root);
+const sourceBases = new Map();
+for (const path of all.filter(path => path.endsWith('/manifest.json') && path.includes('/docs/evaluation/'))) {
+  const manifest = JSON.parse(await readFile(path, 'utf8'));
+  for (const [file, base] of Object.entries(manifest.markdown_source_bases || {})) {
+    // Archived source keeps the link semantics of its original document.
+    sourceBases.set(resolve(dirname(path), file), resolve(dirname(path), base));
+  }
+}
 for (const path of all) {
   if (path.endsWith('.mjs') || path.endsWith('.js')) {
     try { execFileSync(process.execPath, ['--check', path], { stdio: 'pipe' }); }
@@ -30,7 +38,7 @@ for (const path of all) {
     if (/^(?:[a-z][a-z0-9+.-]*:|#)/i.test(link)) continue;
     try { link = decodeURIComponent(link.split('#')[0]); } catch { problems.push(`Bad link encoding in ${path}`); continue; }
     if (!link) continue;
-    try { await stat(resolve(dirname(path), link)); } catch { problems.push(`Missing local link in ${path.slice(root.length)}: ${match[1]}`); }
+    try { await stat(resolve(sourceBases.get(path) || dirname(path), link)); } catch { problems.push(`Missing local link in ${path.slice(root.length)}: ${match[1]}`); }
   }
 }
 for (const name of ['landing-page-story', 'landing-page-resonance', 'landing-page-offer']) {

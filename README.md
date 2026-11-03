@@ -1,18 +1,24 @@
 # Landing Page Lab
 
-**Same product. Three ways to make it matter.**
+**Give your coding agent a marketing department.**
 
-Three open-source agent skills for the part of your landing page that comes
-before the code: **the story, the audience, and the offer**.
+Three open-source agent skills take your product README into landing-page
+directions, copy, and a build handoff: **the story, the audience, and the offer**.
 
 Created by [Jazz](https://github.com/soohanjazzyun) for solo founders and developers
 building products with AI.
 
-![One product, three original landing-page directions](assets/social-preview.png)
+[![Mina Studio: the same portrait and layout with a different landing-page pitch](assets/mina-studio-proof-poster.png)](assets/mina-studio-proof.mp4)
 
-[Try the interactive comparison](https://soohanjazzyun.github.io/landing-page-lab/) ·
-[Watch the 34-second launch film](assets/landing-page-lab-launch-v2.mp4) ·
+[Try the recorded skill comparison](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/) ·
+[Watch the 14-second proof clip](assets/mina-studio-proof.mp4) ·
 [Inspect actual independent runs](docs/evaluation.md)
+
+The featured page uses an AI-generated portrait and a fictional design service.
+Its three recommended heroes are the exact output of an actual agent run.
+Inspect the [source](docs/evaluation/mina-demo/source.md),
+[task](docs/evaluation/mina-demo/task.md), and
+[unedited output](docs/evaluation/mina-demo/output.md).
 
 Your agent can build the page. Give it a useful way to decide what that page
 should say, using the facts you actually have.
@@ -85,9 +91,11 @@ page structure, copy, and implementation handoff for each direction.
 | [ShipWatch](examples/shipwatch/README.md) | Shows when scheduled jobs miss a heartbeat; it does not retry the jobs. |
 | [Slotwise](examples/slotwise/README.md) | Lets clients choose available appointment slots in their time zone. |
 
-The website examples are **authored illustrations**, not customer results,
-conversion experiments, or model benchmarks. Actual independent agent runs
-and their limitations are documented in [evaluation](docs/evaluation.md).
+The three examples above are **authored illustrations**. The separate
+[Mina Studio comparison](site/cases/mina-studio/index.html) renders an actual
+agent's recommendations from a fictional brief. Neither kind is a customer
+result, conversion experiment, or model benchmark. Actual independent agent
+runs and their limitations are documented in [evaluation](docs/evaluation.md).
 
 The local prompt composer prepares a task for your agent. It does not analyze
 your product with a model, upload your README, or generate marketing copy itself.
@@ -134,6 +142,7 @@ For development verification:
 ```sh
 npx playwright install chromium
 npm run check
+npm run verify:cases
 npm test
 npm run test:browser
 npm run test:package

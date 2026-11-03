@@ -1,0 +1,26 @@
+{
+  "captured_at_utc": "2026-11-03T23:36:53.389874+00:00",
+  "source_commit": "00f28fb704f5dd25c78a5db6ad58873ed86c30d3",
+  "source_repository": "https://github.com/soohanjazzyun/landing-page-lab",
+  "source_files": {
+    "README.md": "8a0b991d524a248bde5f2aae4d0d27c8442b6d8386389fa8c5a901f03279b791",
+    "site/index.html": "f255721f152eb1bd63195665f4b1d4f5d0dcdaa21ce6b26ec8124f64acfa029f",
+    "skills/landing-page-story/SKILL.md": "19dc512ec15f5efedf351017d80f198edfc7b9da36c46eb7618cc550f91ab226"
+  },
+  "snapshot_sha256": "dcf3c41c712ec34c24a1b074ffeedb75ef62d055bd85f709dbb988b992032a4a",
+  "case_type": "maintainer own-product audit; no customer or conversion result",
+  "markdown_source_bases": {
+    "source.md": "../../.."
+  },
+  "recorded_files": {
+    "source.md": "dcf3c41c712ec34c24a1b074ffeedb75ef62d055bd85f709dbb988b992032a4a",
+    "task.md": "73676e4340ad514e10fb7fdaebb80e75a1339119700b411a19ff817a7a57d296",
+    "output.md": "8dcdab532cf5cc31d93d82616007e41d512e257e32e341bb4a49f57b6d34a84e",
+    "run-notes.md": "142a4227247a46f564fb7685af114c7f4273051d23e8bd225be76a0e83ca4bfa"
+  },
+  "instruction_files": {
+    "../../../skills/landing-page-story/SKILL.md": "19dc512ec15f5efedf351017d80f198edfc7b9da36c46eb7618cc550f91ab226",
+    "../../../skills/landing-page-story/references/story-and-evidence.md": "f44bd78989160260c7cebaacabe3c270789c2f43a91359458381e971888f144c",
+    "../../../skills/landing-page-story/references/build-handoff.md": "d26658fa42c5a29a0eebc1888ad25ff581c934be3492816a9897be6a34943d3f"
+  }
+}

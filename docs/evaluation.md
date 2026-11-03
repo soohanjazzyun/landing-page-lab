@@ -37,7 +37,7 @@ repository-relative source paths.
   passed. These were not observed product behavior defects.
 - `npm run test:package`: stale deployment files are removed; all four ZIPs
   match their download copies/checksums and contain the exact current skill
-  and reference bytes. Original license and credits travel with downloads.
+  and reference bytes. Rebuilding unchanged source also produces identical archive checksums. Original license and credits travel with downloads.
 - `npm run check`: JavaScript syntax, relative Markdown links, and all three
   entry points pass.
 - Skills CLI 1.7.6 discovers all three skills. Local clean-install and public

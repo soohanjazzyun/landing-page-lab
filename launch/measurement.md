@@ -1,6 +1,6 @@
 # Measure what actually happened
 
-[metrics.csv](metrics.csv) and [activity.csv](activity.csv) intentionally contain headers only. There is no invented zero, baseline, trial, outreach reply, or star gain. [hypotheses.csv](hypotheses.csv) contains plans marked `unmeasured`, never actual results. The 3,000-star goal is a target, not a forecast.
+[metrics.csv](metrics.csv) starts with an observed public GitHub API baseline. [activity.csv](activity.csv) records only completed, verified actions. Unknown measures stay empty; maintainer installation checks are excluded from external adoption. No trial, outreach reply, or star gain is inferred from publication. [hypotheses.csv](hypotheses.csv) contains plans marked `unmeasured`, never actual results. The 3,000-star goal is a target, not a forecast.
 
 ## Four distinct layers
 

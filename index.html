@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Same product. Three ways to make it matter. Turn one README into story, audience, and offer directions for your landing page. Free, open-source agent skills by Jazz.">
+  <meta name="theme-color" content="#edf2fa">
+  <meta property="og:title" content="Landing Page Lab by Jazz">
+  <meta property="og:description" content="Same brief. Same design. Three different reasons to care. Find the angle your product needs, then give your agent the brief to build it.">
+  <meta property="og:image" content="https://soohanjazzyun.github.io/landing-page-lab/social-preview.png">
+  <meta property="og:image:alt" content="Landing Page Lab by Jazz. Same product. Three ways to make it matter.">
+  <meta property="og:url" content="https://soohanjazzyun.github.io/landing-page-lab/">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Landing Page Lab by Jazz | Same product. Three ways to make it matter.</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#">
+      <svg class="brand-mark" viewBox="0 0 40 44" fill="none" aria-hidden="true"><path d="M9 5h22v29H9z" stroke="currentColor" stroke-width="2.5"/><path d="M4 11v28h22M15 13h10M15 19h10M15 25h6" stroke="currentColor" stroke-width="2.5"/><path d="m22 29 11-12 4 4-11 12-6 2 2-6Z" fill="#ee593d" stroke="#edf2fa" stroke-width="2"/></svg>
+      <span>Landing Page Lab <span class="byline">by Jazz</span></span>
+    </a>
+    <nav aria-label="Main navigation"><a href="#examples">Inspect the outputs</a><a href="#workbench">Bring your README</a><a class="nav-github" href="https://github.com/soohanjazzyun/landing-page-lab">GitHub <svg viewBox="0 0 16 16" width="13" height="13" fill="none" aria-hidden="true"><path d="M4 12 12 4M4 4h8v8" stroke="currentColor" stroke-width="1.5"/></svg></a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="release-note"><span aria-hidden="true"></span> Three free, open-source skills. One product brief.</p>
+        <h1 id="hero-heading">Same product.<br>Three ways to<br>make it <em>matter.</em></h1>
+        <p class="hero-description">Your agent can build a landing page. Help it find the angle. Explore a clearer story, a sharper audience, and a more concrete offer.</p>
+        <div class="hero-actions"><a class="button primary" href="#workbench">Find my angle <span aria-hidden="true">↗</span></a><a class="text-link" href="#install">Get the three skills</a></div>
+        <p class="agent-line">For solo founders and developers. Works with your coding agent.</p>
+        <div class="hero-footnote"><span aria-hidden="true">↳</span><p>Same source facts. Same visual design.<br>Switch the perspective and watch the message change.</p></div>
+      </div>
+      <div class="hero-demo">
+        <div class="demo-topline"><p>A different angle.<br><strong>Not a different product.</strong></p><span class="editor-stroke" aria-hidden="true">↙</span></div>
+        <div class="case-picker" role="tablist" aria-label="Choose an example product">
+          <button id="case-relaynote" type="button" role="tab" data-case="relaynote" aria-selected="true" aria-controls="example-preview">RelayNote</button>
+          <button id="case-shipwatch" type="button" role="tab" data-case="shipwatch" aria-selected="false" aria-controls="example-preview" tabindex="-1">ShipWatch</button>
+          <button id="case-slotwise" type="button" role="tab" data-case="slotwise" aria-selected="false" aria-controls="example-preview" tabindex="-1">Slotwise</button>
+        </div>
+        <div class="preview-frame" id="example-preview" role="tabpanel" aria-labelledby="case-relaynote">
+          <div class="browser-bar" aria-hidden="true"><span class="browser-dots"><i></i><i></i><i></i></span><span id="preview-address">relaynote.example</span><span>↗</span></div>
+          <div class="preview-content">
+            <div class="preview-nav"><span class="sample-brand"><span id="sample-icon">R</span><b id="sample-name">RelayNote</b></span><span class="sample-nav-links">Product <span>How it works</span></span></div>
+            <div class="preview-body" id="preview-body"><p class="sample-category" id="sample-category">Customer research</p><h2 id="sample-headline">Keep the customer’s words behind your next product decision.</h2><p class="sample-description" id="sample-description">Group excerpts from your interview notes by topic. Follow each one back to its source when deciding what to build next.</p><button type="button" class="sample-cta" id="sample-cta" title="Illustrative CTA: inspect the page copy">Explore a sample workspace <span aria-hidden="true">↗</span></button><div class="product-evidence" id="product-evidence"></div><div class="sample-steps" id="sample-steps"></div></div>
+          </div>
+        </div>
+        <div class="comparison-controls" role="group" aria-label="Choose a messaging perspective"><button type="button" data-direction="before" aria-pressed="false">Before</button><button type="button" data-direction="story" class="selected" aria-pressed="true"><span>01</span> Story</button><button type="button" data-direction="resonance" aria-pressed="false"><span>02</span> Audience</button><button type="button" data-direction="offer" aria-pressed="false"><span>03</span> Offer</button></div>
+        <p class="direction-caption" id="direction-caption"><strong>Story</strong> Why should I care?</p>
+        <p class="example-disclosure">Authored fictional illustrations. No customer or conversion results.</p>
+        <p id="demo-status" class="sr-only" role="status"></p>
+      </div>
+    </section>
+
+    <section class="perspectives-section wrap" aria-labelledby="perspectives-heading">
+      <div class="perspectives-intro"><p class="section-kicker">Three ways in</p><h2 id="perspectives-heading">Which question does<br>your page need to answer?</h2></div>
+      <div class="perspective-list">
+        <button type="button" data-explore="story"><span class="perspective-number">01</span><span><b>Story</b><strong>“Why should I care?”</strong><small>A problem, a plan, a clear next step.</small></span><span class="perspective-arrow" aria-hidden="true">↗</span></button>
+        <button type="button" data-explore="resonance"><span class="perspective-number">02</span><span><b>Audience</b><strong>“Is this for someone like me?”</strong><small>A specific person, in a specific moment.</small></span><span class="perspective-arrow" aria-hidden="true">↗</span></button>
+        <button type="button" data-explore="offer"><span class="perspective-number">03</span><span><b>Offer</b><strong>“Is it worth the effort?”</strong><small>Concrete value, visible proof, a doable start.</small></span><span class="perspective-arrow" aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section class="outputs-section" id="examples" aria-labelledby="outputs-heading">
+      <div class="wrap">
+        <div class="section-top"><div><p class="section-kicker">Past the headline</p><h2 id="outputs-heading">The angle changes.<br>The whole page follows.</h2></div><p>Inspect the reasoning, section order, complete copy, and build handoff for your chosen direction.</p></div>
+        <div class="output-context"><span id="output-context">RelayNote / Story</span><div class="output-direction-controls" role="group" aria-label="Choose the output perspective"><button type="button" data-output-direction="story" aria-pressed="true">Story</button><button type="button" data-output-direction="resonance" aria-pressed="false">Audience</button><button type="button" data-output-direction="offer" aria-pressed="false">Offer</button></div></div>
+        <div class="output-workspace">
+          <div class="output-sidebar"><p class="working-on">Working on <strong id="output-case-name">RelayNote</strong><span id="output-direction-name">Story direction</span></p><div role="tablist" aria-label="Example outputs" aria-orientation="vertical" class="output-tabs"><button id="tab-story" type="button" role="tab" data-output="story" aria-selected="true" aria-controls="output-panel"><span>01</span> The reasoning</button><button id="tab-structure" type="button" role="tab" data-output="structure" aria-selected="false" aria-controls="output-panel" tabindex="-1"><span>02</span> Page structure</button><button id="tab-copy" type="button" role="tab" data-output="copy" aria-selected="false" aria-controls="output-panel" tabindex="-1"><span>03</span> Full page copy</button><button id="tab-build" type="button" role="tab" data-output="build" aria-selected="false" aria-controls="output-panel" tabindex="-1"><span>04</span> Build prompt</button></div><p class="evidence-note"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2 17 5v5c0 4-7 7-7 7S3 14 3 10V5l7-3Z" stroke="currentColor" stroke-width="1.5"/><path d="m6.5 9.5 2.5 2.5 4.5-5" stroke="currentColor" stroke-width="1.5"/></svg> Same facts throughout.<br>Missing proof stays visible.</p></div>
+          <div class="output-document" id="output-panel" role="tabpanel" aria-labelledby="tab-story" tabindex="0"><div id="output-content"></div></div>
+        </div>
+        <div class="outputs-caption"><span>Original illustrations of the workflow, not recorded agent runs.</span><div class="report-actions"><button class="quiet-button" id="copy-example" type="button">Copy this direction</button><button class="quiet-button" id="download-example" type="button">Download .md</button><button class="quiet-button" id="share-example" type="button">Copy comparison link</button></div></div>
+      </div>
+    </section>
+
+    <section class="workbench-section wrap" id="workbench" aria-labelledby="workbench-heading">
+      <div class="section-top"><div><p class="section-kicker">Your turn</p><h2 id="workbench-heading">One README.<br>Find your way in.</h2></div><p>Choose a direction, or compare all three. Get a self-contained prompt to take into the coding agent you already use.</p></div>
+      <div class="workbench-grid">
+        <form id="prompt-form" class="source-form">
+          <fieldset class="prompt-directions"><legend>What would you like to explore?</legend><div><label><input type="radio" name="direction" value="all" checked><span>Compare all three</span></label><label><input type="radio" name="direction" value="story"><span>Story</span></label><label><input type="radio" name="direction" value="resonance"><span>Audience</span></label><label><input type="radio" name="direction" value="offer"><span>Offer</span></label></div></fieldset>
+          <div class="field-heading"><label for="readme">Your README or product notes</label><button id="load-example" type="button" class="quiet-button">Use sample README</button></div>
+          <textarea id="readme" name="readme" rows="11" maxlength="60000" required placeholder="# Your product&#10;&#10;Who is it for? What does it do?&#10;Paste what you have. Missing facts can stay missing."></textarea>
+          <div class="form-row"><div><label for="audience">Primary customer <span>(optional)</span></label><input id="audience" name="audience" type="text" maxlength="240" placeholder="e.g. solo founders building AI products"></div><div><label for="stack">Build with</label><select id="stack" name="stack"><option value="the existing project stack">My existing stack</option><option value="plain HTML, CSS, and JavaScript">HTML / CSS / JavaScript</option><option value="React">React</option><option value="Next.js">Next.js</option><option value="a visual website builder">A visual builder</option></select></div></div>
+          <button class="button primary" type="submit">Make my agent prompt <span aria-hidden="true">↗</span></button>
+          <p class="privacy-note">Assembled in your browser. No uploads, tracking, or model calls. Your source stays here until you choose to copy it.</p>
+        </form>
+        <div class="prompt-result"><div class="field-heading"><label for="generated-prompt">Ready for your coding agent</label><span id="prompt-state">Waiting for your source</span></div><textarea id="generated-prompt" rows="16" readonly placeholder="Your self-contained prompt will appear here.&#10;&#10;It includes the direction, the working guidance, your source, and the handoff requirements. Run it in your own agent to produce the page."></textarea><div class="result-actions"><button id="copy-prompt" type="button" class="button secondary" disabled>Copy prompt</button><button id="download-prompt" type="button" class="quiet-button" disabled>Download .md</button></div><p class="result-help">Paste into your agent to create the outputs. Installing the skills adds the full reusable workflow.</p></div>
+      </div>
+    </section>
+
+    <section class="install-section" id="install" aria-labelledby="install-heading"><div class="wrap install-grid"><div><p class="section-kicker">Take it into your build</p><h2 id="install-heading">Three perspectives.<br>Your existing tools.</h2><p>Use one when you know what is missing.<br>Use all three when you need to find the angle.</p><a href="downloads/landing-page-lab.zip" class="text-link" download>Download all three skills <span aria-hidden="true">↗</span></a><div class="individual-downloads"><span>Or choose one:</span><a href="downloads/landing-page-story.zip" download>Story</a><a href="downloads/landing-page-resonance.zip" download>Audience</a><a href="downloads/landing-page-offer.zip" download>Offer</a></div><a href="https://github.com/soohanjazzyun/landing-page-lab" class="text-link">View source on GitHub <span aria-hidden="true">↗</span></a></div><div class="install-box"><div class="install-label"><label for="install-skill">Install with the skills CLI</label><button type="button" class="quiet-button" id="copy-install">Copy</button></div><select id="install-skill" aria-label="Choose skills to install"><option value="all">All three skills</option><option value="story">Story</option><option value="resonance">Audience</option><option value="offer">Offer</option></select><code id="install-command">npx skills add soohanjazzyun/landing-page-lab</code><p>Choose your agent and skills when prompted.</p><div class="prompt-example"><span>Then ask your agent</span><p id="install-example">“Compare Story, Audience, and Offer directions for this README using the landing-page-lab skills. Keep the facts and visual design the same.”</p></div><p class="pre-release-note">Local release preview. The proposed repository and CLI command become available after publication. The ZIPs work locally now.</p></div></div></section>
+
+    <section class="credits-section wrap" aria-labelledby="credits-heading"><div><p class="section-kicker">The ideas behind the lenses</p><h2 id="credits-heading">Good ideas.<br>A practical adaptation.</h2></div><div><p>Story draws on Donald Miller’s <cite>Building a StoryBrand</cite>. Audience draws on Seth Godin’s <cite>This Is Marketing</cite>. Offer draws on Alex Hormozi’s <cite>$100M Offers</cite>.</p><p>Jazz authored the source-to-page workflows, examples, evidence checks, and build handoffs. These are independent adaptations of published ideas, not official formulas or endorsements.</p><p class="credits-small">No affiliation with the authors or their companies. No conversion results are claimed. Test the direction with your audience.</p></div></section>
+  </main>
+
+  <footer class="site-footer wrap"><a class="brand small-brand" href="#">Landing Page Lab <span class="byline">by Jazz</span></a><p>Find the angle. Keep it honest. Build the page.</p><a href="https://github.com/soohanjazzyun/landing-page-lab">Source &amp; credits</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">The interactive examples and prompt composer need JavaScript. You can download the three skills in the installation section.</div></noscript>
+</body>
+</html>

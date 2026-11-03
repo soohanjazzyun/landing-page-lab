@@ -11,7 +11,7 @@ building products with AI.
 ![One product, three original landing-page directions](assets/social-preview.png)
 
 [Try the interactive comparison](https://soohanjazzyun.github.io/landing-page-lab/) ·
-[Watch the browser walkthrough](assets/demo.mp4) ·
+[Watch the 34-second launch film](assets/landing-page-lab-launch-v2.mp4) ·
 [Inspect actual independent runs](docs/evaluation.md)
 
 Your agent can build the page. Give it a useful way to decide what that page

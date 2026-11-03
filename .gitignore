@@ -5,6 +5,7 @@ dist/
 test-results/
 playwright-report/
 coverage/
+video/
 .env
 .env.*
 !.env.example

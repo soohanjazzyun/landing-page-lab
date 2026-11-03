@@ -1,8 +1,24 @@
 # English channel copy
 
-These are drafts for the confirmed X target `@jazz_from_korea`, not posts already sent or scheduled. Use verified live destinations and the actual media. All X text below is ASCII and below 280 characters when each URL counts as 23 characters, including line breaks. The [JSON source](x-posts.json) records the checked counts. Recheck the platform composer if you edit text or add mentions.
+Launch A was [published with the 27-second video](https://x.com/Jazz_from_Korea/status/2117593948839645450) on `@jazz_from_korea`, followed by [credits and the demo link](https://x.com/Jazz_from_Korea/status/2117594486234915004). The remaining variants and calendar posts are unscheduled drafts. Use verified live destinations and the actual media. All X text below is ASCII and below 280 characters when each URL counts as 23 characters, including line breaks. The [JSON source](x-posts.json) records the checked counts. Recheck the platform composer if you edit text or add mentions.
 
-## Launch hook experiment
+## Published 34-second film update
+
+[Published update](https://x.com/Jazz_from_Korea/status/2117600499033928157) uses the stronger opening and the completed square motion film. The initial post edit failed twice in X; the new text/video were published as a separate post.
+
+```text
+Your AI put a gradient on your README.
+
+I built Landing Page Lab: 3 open-source agent skills for the story, audience, and offer.
+
+Watch the pitch change. Same facts. Same design.
+
+https://github.com/soohanjazzyun/landing-page-lab
+```
+
+The hook and creative changed together, so this is an editorial revision, not a controlled hook experiment.
+
+## Initial launch hook experiment
 
 Choose one main post, not all three on launch day. Attach the same 27-second comparison so the hook is the only planned difference. A is the initial working choice. B is the demo-led alternative. C tests the three unanswered buyer questions. Organic posts reach different people at different times, so sequential results are directional observations, not a randomized causal test. Test no more than one change at a time; see [hypotheses](hypotheses.csv).
 
@@ -272,3 +288,15 @@ I would like to understand where the workflow makes a wrong buyer assumption or 
 ## Community adaptation
 
 Read the actual community rules before posting. Use one specific decision from a permitted case and ask for critique of that decision. State that Jazz built the project. Link only where allowed. Do not paste the same launch thread across unrelated communities or use a “feedback” question to evade promotion rules.
+
+## Published credits reply
+
+Three perspectives, independently adapted:
+Story: Donald Miller
+Audience: Seth Godin
+Offer: Alex Hormozi
+
+Credits, source notes, and actual agent trials are in the repo. No affiliation or endorsement.
+
+Try the comparison:
+https://soohanjazzyun.github.io/landing-page-lab/

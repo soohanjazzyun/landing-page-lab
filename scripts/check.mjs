@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const problems = [];
-const excluded = new Set(['node_modules', '.git', '.local', 'dist', 'test-results', 'playwright-report']);
+const excluded = new Set(['node_modules', '.git', '.local', 'dist', 'test-results', 'playwright-report', 'video']);
 async function files(dir) {
   const all = [];
   for (const entry of await readdir(dir, { withFileTypes: true })) {

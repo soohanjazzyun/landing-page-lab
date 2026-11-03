@@ -15,12 +15,22 @@ The skill has no built-in private usage telemetry established by this pack. A pe
 
 ## First snapshot
 
-After the canonical public repository actually exists, record the UTC timestamp, exact repository, and the observed star count. Capture GitHub's traffic view if available to the owner. Leave inaccessible fields blank and write why in `measurement_gaps`. Do not use a planning target as the starting count.
+The first public API snapshot at 2026-11-03 12:23:20 UTC recorded 0 stars. A separate owner-accessible, read-only GitHub API check at 12:43 UTC returned 0 stars, 0 unique visitors, 0 full clones, and an empty referrer list. Its traffic response covered 2026-10-21 through 2026-11-03. These are API snapshots, not evidence that no one installed or used the skills: maintainer remote-install verification had already occurred. GitHub says visitor/clone data updates hourly and referrer data daily, so these observations may lag recent activity. See [GitHub's traffic documentation](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository).
+
+Keep each snapshot's UTC capture time, exact repository, source, and coverage in [metrics.csv](metrics.csv). The original star-only baseline leaves traffic fields blank because they were not collected at that time. A blank top-referrer field in the later snapshot corresponds to GitHub's observed empty referrer list, as stated in that row's gaps. Leave other inaccessible or unmeasured fields blank and explain why in `measurement_gaps`. Do not use a planning target as the starting count.
 
 For a read-only public star count:
 
 ```sh
 gh api repos/soohanjazzyun/landing-page-lab --jq '{repository:.full_name,stars:.stargazers_count}'
+```
+
+For owner-accessible traffic snapshots, use the read-only endpoints:
+
+```sh
+gh api repos/soohanjazzyun/landing-page-lab/traffic/views
+gh api repos/soohanjazzyun/landing-page-lab/traffic/clones
+gh api repos/soohanjazzyun/landing-page-lab/traffic/popular/referrers
 ```
 
 Record actual outputs and capture time. A failure to access the repository is not a measured zero. Platform screenshots or exports can be kept outside the public repo if they contain private information; record a safe evidence pointer instead of publishing it.
@@ -41,7 +51,7 @@ Blank means unmeasured/unavailable. Zero means measured and actually zero for th
 
 ## Cadence and attribution
 
-Take the first snapshot on Day 1, then at the same time on Days 7 and 14; weekly thereafter. GitHub's traffic window rolls over, so keep a dated export before it expires. Record each actual post or message in `activity.csv`, with its URL, asset ID, time, observation window, and permitted evidence.
+Take the first snapshot on Day 1, then at the same time on Days 7 and 14; weekly thereafter. GitHub's traffic window rolls over, so keep a dated export before it expires. Record each actual post or message in `activity.csv`, with its URL, asset ID, time, observation window, and permitted evidence. When only a verification time is known, use an action such as `post_verified` or `release_verified` and label that timestamp as a verification snapshot; do not present it as the original publication time.
 
 UTM parameters can help distinguish site traffic only if a real analytics system reads them. They do not attribute GitHub stars and do not cause GitHub's traffic view to identify individual visitors. Product Hunt's primary URL should remain direct, without tracking parameters. Private outreach replies should be summarized safely, not copied publicly without consent.
 

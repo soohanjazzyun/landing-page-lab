@@ -1,14 +1,15 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Drafts only; not scheduled or submitted.",
+  "publication_status": "Initial launch, credits reply, and revised 34-second launch film published. Other calendar posts remain unscheduled drafts. The original post edit did not save.",
   "posts": [
     {
       "id": "launch-a",
       "label": "A / sharp clarity gap",
-      "status": "draft",
+      "status": "published",
       "weighted_characters": 218,
-      "text": "Your AI-built landing page looks like a startup.\nBut can anyone explain what you sell?\n\nI built 3 open-source skills for the story, audience, and offer.\n\nSame facts. Same design. Three pitches.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+      "text": "Your AI-built landing page looks like a startup.\nBut can anyone explain what you sell?\n\nI built 3 open-source skills for the story, audience, and offer.\n\nSame facts. Same design. Three pitches.\n\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2117593948839645450"
     },
     {
       "id": "launch-b",
@@ -114,6 +115,22 @@
       "status": "draft",
       "weighted_characters": 229,
       "text": "Landing Page Lab is built around a small loop: show the facts, try a pitch, inspect the decisions, fix the mistakes.\n\nIf that is useful to your work, try a skill or star the repo to follow the next cases.\n\nhttps://github.com/soohanjazzyun/landing-page-lab"
+    },
+    {
+      "id": "launch-credits-reply",
+      "label": "Credits and demo reply",
+      "status": "published",
+      "weighted_characters": 245,
+      "text": "Three perspectives, independently adapted:\nStory: Donald Miller\nAudience: Seth Godin\nOffer: Alex Hormozi\n\nCredits, source notes, and actual agent trials are in the repo. No affiliation or endorsement.\n\nTry the comparison:\nhttps://soohanjazzyun.github.io/landing-page-lab/",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2117594486234915004"
+    },
+    {
+      "id": "launch-v2",
+      "label": "README gradient hook / 34-second film",
+      "status": "published",
+      "weighted_characters": 203,
+      "text": "Your AI put a gradient on your README.\n\nI built Landing Page Lab: 3 open-source agent skills for the story, audience, and offer.\n\nWatch the pitch change. Same facts. Same design.\n\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2117600499033928157"
     }
   ]
 }

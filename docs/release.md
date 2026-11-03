@@ -1,30 +1,31 @@
 # Release checklist: Landing Page Lab by Jazz
 
-Prepared: 2026-11-03. Intended version: 0.2.0. Canonical repository: `soohanjazzyun/landing-page-lab`. Canonical Pages destination: `https://soohanjazzyun.github.io/landing-page-lab/`.
+Prepared: 2026-11-03. Published version: 0.2.0. Canonical repository: `soohanjazzyun/landing-page-lab`. Canonical Pages destination: `https://soohanjazzyun.github.io/landing-page-lab/`.
 
 Unchecked items are not claims that work happened or that approval is missing. Complete them using the current session's actual authorization and verification evidence. Do not repeat a permission request for an action already authorized. A separate social account, external message, submission, paid option, or new content use still needs an actual scope and account, not an instruction inferred from a reference document.
 
 ## Files and provenance
 
-- [ ] Review the three original skills: [Story](../skills/landing-page-story/SKILL.md), [Resonance](../skills/landing-page-resonance/SKILL.md), [Offer](../skills/landing-page-offer/SKILL.md).
-- [ ] Confirm the README, site, install commands, package metadata, ZIP, and notices all use Landing Page Lab and the canonical public repository.
-- [ ] Review [NOTICE](../NOTICE.md) and [rights review](rights-review.md). Confirm actual current files do not bundle third-party PDFs, source prose, worksheets, diagrams, logos, course transcripts, or copied skill files. Original expression and credits do not themselves resolve any applicable source contract.
-- [ ] Record the disposition of the actual source history and unresolved restrictions: StoryBrand Limitations (k)/(l), its content-use/IP terms, and Acquisition.com's terms/material-specific notices. Do not describe the review as permission or legal clearance. If a specific retained use needs a legal basis, establish it or replace that material; [a bounded clarification draft](../launch/rights-request.md) is available if useful.
-- [ ] Keep fictional/authored labels. No unsupported metrics, clients, endorsements, guarantees, or conversion studies appear in the release.
-- [ ] Ensure public files contain only this isolated project's content; do not include the personal knowledge base, secrets, local agent directories, or unrelated checkout files.
+- [x] Review the three original skills: [Story](../skills/landing-page-story/SKILL.md), [Resonance](../skills/landing-page-resonance/SKILL.md), [Offer](../skills/landing-page-offer/SKILL.md).
+- [x] Confirm the README, site, install commands, package metadata, ZIP, and notices all use Landing Page Lab and the canonical public repository.
+- [x] Review [NOTICE](../NOTICE.md) and [rights review](rights-review.md). Confirm actual current files do not bundle third-party PDFs, source prose, worksheets, diagrams, logos, course transcripts, or copied skill files. Original expression and credits do not themselves resolve any applicable source contract.
+- [x] Record the disposition of the actual source history and unresolved restrictions: StoryBrand Limitations (k)/(l), its content-use/IP terms, and Acquisition.com's terms/material-specific notices. Do not describe the review as permission or legal clearance. If a specific retained use needs a legal basis, establish it or replace that material; [a bounded clarification draft](../launch/rights-request.md) is available if useful.
+- [x] Keep fictional/authored labels. No unsupported metrics, clients, endorsements, guarantees, or conversion studies appear in the release.
+- [x] Ensure public files contain only this isolated project's content; do not include the personal knowledge base, secrets, local agent directories, or unrelated checkout files.
 
 ## Verify the actual release
 
-- [ ] Run `npm run check`, `npm test`, `npm run test:browser`, and `npm run test:package` against the final changes; record results in [evaluation](evaluation.md).
-- [ ] Run `npm run package`; inspect `dist/landing-page-lab.zip`, `dist/site/`, and `dist/SHA256SUMS` from the same source revision. Verify the ZIP contains all three skill folders, their references, license, and notices.
-- [ ] Exercise create/audit/build selection and the three skill choices in the actual demo, including narrow mobile views, prompt copying/downloading, and local-only behavior.
-- [ ] Preserve a real run record separately from authored examples. Record agent/model, skill version, input, prompt, raw output, manual changes, failures, and limitations.
-- [ ] Check the 27-second cut or other actual release media; a shot list does not count as a recorded new video. Re-record media that advertises an outdated one-skill release, or label that older recording accurately.
+- [x] Run `npm run check`, `npm test`, `npm run test:browser`, and `npm run test:package` against the final changes; record results in [evaluation](evaluation.md).
+- [x] Run `npm run package`; inspect `dist/landing-page-lab.zip`, `dist/site/`, and `dist/SHA256SUMS` from the same source revision. Verify the ZIP contains all three skill folders, their references, license, and notices.
+- [x] Exercise all/single direction selection and the three install choices in the actual demo, including narrow mobile views, prompt copying/downloading, and local-only behavior. The demo has no create/audit/build mode selector.
+- [x] Preserve the actual three-skill agent trial outputs and observations separately from authored examples in [evaluation](evaluation.md).
+- [ ] Complete the trial's reproducibility metadata. It used local version 0.2.0 files rather than an immutable release snapshot; the evaluator's model identity and exact invocation are not recorded. Keep these gaps explicit instead of filling them from inference.
+- [x] Verify the published 27-second comparison cut. It shows authored examples in the actual static application, not live model generation. A separate [34-second motion film](https://x.com/Jazz_from_Korea/status/2117600499033928157) is now completed and published; see [production notes](video-launch-v2.md).
 
 ## Publish and verify, within current authorization
 
-- [ ] Create or confirm the public personal repository `soohanjazzyun/landing-page-lab`; push the reviewed release files to the intended branch. Record actual URL and commit below.
-- [ ] From a clean temporary product project, test the **remote** install, not just a local-copy installation:
+- [x] Create or confirm the public personal repository `soohanjazzyun/landing-page-lab`; push the reviewed release files to the intended branch. Record actual URL and commit below.
+- [x] From a clean temporary product project, test the **remote** install, not just a local-copy installation:
 
 ```sh
 npx skills add soohanjazzyun/landing-page-lab --skill landing-page-story
@@ -32,12 +33,13 @@ npx skills add soohanjazzyun/landing-page-lab --skill landing-page-resonance
 npx skills add soohanjazzyun/landing-page-lab --skill landing-page-offer
 ```
 
-- [ ] Confirm all three skills are discoverable in the tested agent after installation. Do not generalize one agent's successful install to untested assistants.
-- [ ] Publish the actual static artifact via GitHub Pages at the canonical destination, subject to the account's actual settings. Check the public root, downloads, images, and every advertised link after deployment.
-- [ ] Update availability notes only when the respective remote resources work. Keep the composer described as local prompt preparation.
-- [ ] Set the actual repository description, topics, and social preview only from reviewed project assets. Do not use a third-party creator's screenshot or logo as social proof.
-- [ ] Create `v0.2.0` only when its source, remote installation, package, and checksum match. Attach that exact ZIP and checksum if a release is created.
-- [ ] Capture the first real star/traffic baseline in [metrics](../launch/metrics.csv). Verify any skills.sh listing before adding its badge; no fabricated install badge.
+- [x] Confirm all three skills are discoverable in the tested agent after installation. Do not generalize one agent's successful install to untested assistants.
+- [x] Publish the actual static artifact via GitHub Pages at the canonical destination, subject to the account's actual settings. Check the public root, downloads, images, and every advertised link after deployment.
+- [x] Update availability notes only when the respective remote resources work. Keep the composer described as local prompt preparation.
+- [x] Set the repository description/topics and website Open Graph preview from reviewed project assets. The optional custom GitHub repository social-image setting was not changed. No third-party screenshot or logo is used as social proof.
+- [x] Publish `v0.2.0` at the recorded code commit, with four ZIPs and `SHA256SUMS`. Download the release archives and verify all four checksums. Keep later main-branch media/documentation changes separate from the code tag.
+- [x] Capture the first real star baseline and a separately timed GitHub traffic snapshot in [metrics](../launch/metrics.csv), with coverage limits recorded.
+- [ ] Verify a skills.sh listing and its displayed metric before adding any listing or install badge. No verified listing or install count is recorded here.
 
 Suggested description:
 
@@ -47,18 +49,24 @@ Suggested topics: `agent-skills`, `landing-page`, `copywriting`, `marketing`, `c
 
 ## Actual publication record
 
-Fill only after the action succeeds:
+Verified on 2026-11-03 after the respective actions succeeded. Keep the published code tag fixed; later main-branch documentation/media updates are separate from that tag.
 
 | Item | Observed value / evidence |
 | --- | --- |
-| Public repository and visibility | Not recorded in this checklist |
-| Public source commit | Not recorded in this checklist |
-| Remote three-skill install | Not recorded in this checklist |
-| Live Pages URL / deployment | Not recorded in this checklist |
-| Release tag / attached checksum | Not recorded in this checklist |
-| Social posts / directory submissions | Drafts prepared; no completion recorded here |
-| External creator messages | Drafts prepared; no completion recorded here |
+| Public repository and visibility | [soohanjazzyun/landing-page-lab](https://github.com/soohanjazzyun/landing-page-lab), public, default branch `main` |
+| Public source commit | Initial snapshot `4ea663f`; v0.2.0 code tag at [b20d49f](https://github.com/soohanjazzyun/landing-page-lab/tree/b20d49f7514c178c7d7d988b25147fd1a4ab53d2). At the 12:43 UTC check, `main` was [cb0dee5](https://github.com/soohanjazzyun/landing-page-lab/tree/cb0dee592e7ed86f3b1f0c026beeeebf207f49e4), including the trimmed media and initial baseline record. |
+| Remote three-skill install | Skills CLI 1.7.6, clean project, Codex, `--copy`: all three skills and their references match source bytes. These are maintainer checks, not external adoption. |
+| Live Pages URL / deployment | [Live comparison](https://soohanjazzyun.github.io/landing-page-lab/), HTTPS, `gh-pages` branch root; deployment `5d1dddd`. `verify-public.mjs` confirmed all 13 public files match built bytes, including four ZIPs. |
+| Release tag / attached checksum | [v0.2.0](https://github.com/soohanjazzyun/landing-page-lab/releases/tag/v0.2.0): four ZIPs, `SHA256SUMS`, a 27-second MP4, and an original social-preview PNG. All four downloaded release ZIPs passed checksum verification. The 34-second launch film and its poster were added as separate release assets. |
+| Social posts / directory submissions | The initial [X launch video](https://x.com/Jazz_from_Korea/status/2117593948839645450) and [credits/demo reply](https://x.com/Jazz_from_Korea/status/2117594486234915004) were published and verified in the UI. The [revised hook and 34-second motion film](https://x.com/Jazz_from_Korea/status/2117600499033928157) were published as a separate post after X failed to save the original edit. No directory submission is recorded. |
+| External creator messages | Three tailored drafts prepared; not sent. No creator agreement or endorsement claimed. |
 
 ## The launch work after publication
 
 Use the [14-day calendar](../launch/calendar.md), [shortlist](../launch/prospects.md), and [Founder Clinic](../launch/homepage-clinic.md). Only log posts, messages, submissions, responses, and real founder cases after they happen. A public repository does not establish an X post, a creator partnership, a conversion improvement, or progress to 3,000 stars. Show HN is conditional on substantial runnable work, not the marketing demo alone.
+
+## Scope and residual limits
+
+No official PDFs, book chapters, worksheets, diagrams, logos, or source skill files are redistributed. The revision uses original execution guidance and records actual prior exposure; it is not clean-room work or permission from rights holders. Applicability/enforceability of source-site contractual restrictions remains unresolved, as documented in [rights review](rights-review.md). No author permission or legal clearance was obtained. No conversion, customer-adoption, or 3,000-star result is established by this release.
+
+The current three-skill trial uses local version 0.2.0 files; evaluator model identity was not exposed. Local and remote install checks are maintainer verification, excluded from external adoption. Browser results comprise the initial run plus two corrected test-fixture reruns. No real founder case, creator response, directory submission, or later calendar activity is recorded as completed.

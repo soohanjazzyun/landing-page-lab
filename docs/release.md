@@ -63,10 +63,24 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 
 ## The launch work after publication
 
+### Recorded-case update: 2026-11-04
+
+- Source update [4acb2dc](https://github.com/soohanjazzyun/landing-page-lab/commit/4acb2dcaa15ad79c54491dd00d064dcd15ef039c) adds the portrait-led Mina Studio case, two preserved actual agent tasks, and the 14-second proof film. The three skill instruction files and v0.2.0 code tag are unchanged.
+- [Public recorded case](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/): Pages commit `dfaef9fd1321ca6a4ff4cedda39572893731748d`. All 21 public files match the built artifact byte-for-byte, including the portrait, four run records, and four ZIPs.
+- Local checks passed: 17 browser scenarios, 4 helper tests, 1 package regression, 23 recorded-case fidelity assertions, JavaScript syntax/local links, and whitespace. The new case's four browser checks cover exact copy, history/keyboard, downloads, no external requests, image load, responsive layout, and automated WCAG A/AA checks.
+- [Portrait-led X post](https://x.com/Jazz_from_Korea/status/2117767386929795138) published with “I gave my coding agent a marketing department.” The account timeline and permalink show the 14-second film, three credited inspirations, and Made with AI label. The UI displays 8:54 AM on Nov 4, Asia/Seoul; the activity log records a later verification timestamp.
+- The MP4 and poster were added as separate release media assets. No original ZIP, tag, or earlier X post was replaced. [Case and film record](portrait-case.md).
+
+The new case is an actual agent execution on a fictional service brief. A
+separate task audits the maintainer's real current page. Neither provides a
+customer result or conversion experiment; model identity remains unexposed.
+The latest repository API snapshot before the portrait post still recorded
+zero stars. No growth is attributed to this publication.
+
 Use the [14-day calendar](../launch/calendar.md), [shortlist](../launch/prospects.md), and [Founder Clinic](../launch/homepage-clinic.md). Only log posts, messages, submissions, responses, and real founder cases after they happen. A public repository does not establish an X post, a creator partnership, a conversion improvement, or progress to 3,000 stars. Show HN is conditional on substantial runnable work, not the marketing demo alone.
 
 ## Scope and residual limits
 
 No official PDFs, book chapters, worksheets, diagrams, logos, or source skill files are redistributed. The revision uses original execution guidance and records actual prior exposure; it is not clean-room work or permission from rights holders. Applicability/enforceability of source-site contractual restrictions remains unresolved, as documented in [rights review](rights-review.md). No author permission or legal clearance was obtained. No conversion, customer-adoption, or 3,000-star result is established by this release.
 
-The current three-skill trial uses local version 0.2.0 files; evaluator model identity was not exposed. Local and remote install checks are maintainer verification, excluded from external adoption. Browser results comprise the initial run plus two corrected test-fixture reruns. No real founder case, creator response, directory submission, or later calendar activity is recorded as completed.
+The earlier three-skill trial used local version 0.2.0 files; evaluator model identity was not exposed. The Nov 4 cases add versioned source/instruction hashes and preserved task/output records, while model identity remains unexposed. Local and remote install checks are maintainer verification, excluded from external adoption. The latest browser verification is a single 17-scenario passing run on Nov 4; the earlier 13-scenario result included two corrected test-fixture reruns. No external founder case, creator response, directory submission, or scheduled calendar campaign is recorded as completed.

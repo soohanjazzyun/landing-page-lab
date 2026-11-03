@@ -7,9 +7,9 @@ Prepared for Jazz on 2026-11-03. Public language: English. Canonical target: [so
 The initial X post used the 27-second comparison video. A stronger opening and the completed 34-second square launch film were [published separately](https://x.com/Jazz_from_Korea/status/2117600499033928157). X failed to save the original post edit, so the initial post remains unchanged. [Film notes](../docs/video-launch-v2.md).
 
 On 2026-11-04, a [portrait-led recorded skill case](../docs/portrait-case.md) and
-14-second proof clip were prepared with the opening “I gave my coding agent a
-marketing department.” Its new X post remains a draft until an actual permalink
-and attached film are verified. [Creative hypothesis and exact post](face-led-case.md).
+14-second proof clip were completed with the opening “I gave my coding agent a
+marketing department.” The [new X post](https://x.com/Jazz_from_Korea/status/2117767386929795138)
+is published and verified with the Made with AI label. [Creative hypothesis and exact post](face-led-case.md).
 
 Three original agent skills tackle three different decisions:
 

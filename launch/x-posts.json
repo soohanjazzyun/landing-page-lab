@@ -1,7 +1,7 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Initial launch, credits reply, and revised 34-second launch film published. Other calendar posts remain unscheduled drafts. The original post edit did not save.",
+  "publication_status": "Initial launch, credits reply, 34-second launch film, and portrait-led 14-second recorded-case post published. Other calendar posts remain unscheduled drafts. The original post edit did not save.",
   "posts": [
     {
       "id": "launch-a",
@@ -135,12 +135,16 @@
     {
       "id": "face-proof",
       "label": "Marketing department / portrait-led recorded run",
-      "status": "draft",
+      "status": "published",
       "weighted_characters": 259,
       "text": "I gave my coding agent a marketing department.\n\n3 free, open-source skills inspired by Donald Miller, Seth Godin & Alex Hormozi.\n\nSame photo. Same layout. Three different pitches.\n\nThe brief, prompt, and actual output are in the repo.\n\nhttps://github.com/soohanjazzyun/landing-page-lab",
       "asset": "assets/mina-studio-proof.mp4",
       "case_url": "https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/",
-      "evidence": "Actual agent run on a fictional brief; AI-generated portrait; no conversion or copywriter-replacement claim."
+      "evidence": "Actual agent run on a fictional brief; AI-generated portrait; no conversion or copywriter-replacement claim.",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2117767386929795138",
+      "verified_at_utc": "2026-11-03T23:56:29.458542Z",
+      "published_time_display": "8:54 AM \u00b7 Nov 4, 2026 (Asia/Seoul; minute precision)",
+      "ai_disclosure": "Made with AI, enabled and verified in the published UI"
     }
   ],
   "updated_on": "2026-11-04"

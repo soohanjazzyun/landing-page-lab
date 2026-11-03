@@ -16,9 +16,9 @@ The [reference README](https://github.com/Alisa0808/vox-director#readme) places 
 - A separate [actual audit](../docs/evaluation/current-page/output.md) applies Story to Landing Page Lab itself. Its input and instructions are recorded independently of the portrait example.
 - The 14-second clip starts with a complete result. It does not stage a live model call or invent generation timing.
 
-## Prepared X post
+## Published X post
 
-Status: draft. Do not record it as published until a real permalink and attached media are verified.
+Published and verified on 2026-11-04: [X post](https://x.com/Jazz_from_Korea/status/2117767386929795138). The account timeline and permalink show the exact opening, all three credited inspirations, the 14-second film, and the Made with AI label. This is publication evidence, not an effectiveness result.
 
 ```text
 I gave my coding agent a marketing department.

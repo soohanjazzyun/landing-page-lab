@@ -460,3 +460,6 @@
   @media(max-width:430px) { .preview-body h2 { min-height:140px; } .sample-steps { min-height:55px; } }
   @media(max-width:360px) { .preview-body h2 { min-height:175px; } .sample-description { min-height:120px; } }
 }
+
+/* A direct path to the recorded agent case, including narrow screens. */
+.recorded-case-link { margin-top: 18px; font-size: 14px; }

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An actual agent run on a fictional design-service brief. Compare the unedited Before, Story, Resonance, and Offer copy with the same portrait and design.">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>Mina Studio · A Landing Page Lab comparison</title>
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to comparison</a>
+  <header class="lab-header page-width">
+    <a class="lab-link" href="../../"><span aria-hidden="true">↖</span> Landing Page Lab</a>
+    <p class="edition"><span class="edition-dot" aria-hidden="true"></span> An actual agent run on a fictional brief</p>
+    <a class="record-link" href="#evidence">Inspect the record <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="main">
+    <section class="comparison-bar page-width" aria-label="Compare the copy">
+      <div class="comparison-label"><span class="small-label">Actual agent run · Fictional brief</span><p>Same portrait. Same design. Different words.</p></div>
+      <div class="lens-controls" role="group" aria-label="Choose a messaging lens">
+        <button type="button" data-lens="before" aria-pressed="false" aria-controls="hero-copy"><span class="lens-number">00</span> Before</button>
+        <button type="button" data-lens="story" aria-pressed="false" aria-controls="hero-copy"><span class="lens-number">01</span> Story</button>
+        <button type="button" data-lens="resonance" aria-pressed="false" aria-controls="hero-copy"><span class="lens-number">02</span> Resonance</button>
+        <button type="button" data-lens="offer" aria-pressed="true" aria-controls="hero-copy"><span class="lens-number">03</span> Offer</button>
+      </div>
+    </section>
+
+    <section class="studio page-width" aria-labelledby="hero-heading">
+      <div class="studio-masthead"><a class="studio-wordmark" href="#main" aria-label="Mina Studio home">mina<span class="wordmark-dot">.</span><span class="studio-wordmark-small">STUDIO</span></a><p>Independent product designer</p><span class="masthead-note">A fictional studio</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy" id="hero-copy">
+          <p class="hero-eyebrow"><span aria-hidden="true"></span> Product design for SaaS</p>
+          <h1 id="hero-heading">One onboarding flow. A defined design handoff.</h1>
+          <p class="hero-description" id="hero-description">Get annotated Figma screens and a clickable prototype for one existing onboarding or first-use flow, up to five screens, plus one handoff call and one revision. Supply a product link or walkthrough recording, your chosen first-use task, and existing design files where available. Your developer handles implementation. Preview an illustrative project below.</p>
+          <a class="project-link" href="#sample-project">See a sample project <span aria-hidden="true">↗</span></a>
+          <p class="sample-link-note">An illustrative scope, based on the brief.</p>
+        </div>
+        <figure class="portrait">
+          <div class="portrait-image"><img src="assets/mina-portrait.png" width="1086" height="1448" alt="AI-generated portrait of the fictional adult Mina Studio persona, seated beside a sunlit window." fetchpriority="high"></div>
+          <figcaption><span>Fictional demo · AI-generated portrait</span><span class="portrait-index" aria-hidden="true">MS / 01</span></figcaption>
+        </figure>
+      </div>
+      <div class="lens-note" aria-labelledby="lens-note-title">
+        <div class="lens-note-label"><span class="small-label" id="lens-note-title">03 / Offer</span><span class="recommendation" id="recommendation">Agent’s recommendation</span></div>
+        <p id="lens-summary">Makes the deliverables, limits, inputs, and implementation responsibility inspectable. The recommendation is an editorial judgment, not a measured conversion result.</p>
+        <a href="#evidence" aria-label="Read the reasoning behind this comparison">Read the reasoning <span aria-hidden="true">↘</span></a>
+      </div>
+      <p id="lens-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+
+    <section class="sample-section page-width" id="sample-project" aria-labelledby="sample-title" tabindex="-1">
+      <div class="section-heading"><p class="small-label">The illustrative sample</p><h2 id="sample-title">One flow.<br>A clear boundary.</h2><p class="section-intro">This is a sample project scope from the fictional brief. It represents no client work or delivered Figma file.</p></div>
+      <div class="sample-content">
+        <div class="flow-sample" aria-label="One first-use flow, up to five screens">
+          <div class="flow-heading"><span>Your chosen first-use task</span><span>Up to 5 screens</span></div>
+          <ol class="screen-flow" aria-label="Illustrative five-screen scope"><li><span class="screen-number">01</span><span class="screen-lines" aria-hidden="true"></span></li><li><span class="screen-number">02</span><span class="screen-lines" aria-hidden="true"></span></li><li><span class="screen-number">03</span><span class="screen-lines" aria-hidden="true"></span></li><li><span class="screen-number">04</span><span class="screen-lines" aria-hidden="true"></span></li><li><span class="screen-number">05</span><span class="screen-lines" aria-hidden="true"></span></li></ol>
+          <p class="diagram-caption">A schematic of the scope limit. Your developer implements the design.</p>
+        </div>
+        <dl class="scope-list">
+          <div><dt><span>01</span> You bring</dt><dd>A product link or walkthrough recording, your chosen first-use task, and existing design files where available.</dd></div>
+          <div><dt><span>02</span> The design handoff</dt><dd>Annotated Figma screens and a clickable prototype for one existing onboarding or first-use flow, plus one handoff call and one revision.</dd></div>
+          <div><dt><span>03</span> Outside the scope</dt><dd>Implementation, user interviews, brand identity, ongoing support, and a full product redesign.</dd></div>
+        </dl>
+        <p class="scope-footnote">Price, timeline, availability, results, and guarantees are not supplied in this brief. <a href="records/source.md">Read the source ↗</a></p>
+      </div>
+    </section>
+
+    <section class="evidence-section" id="evidence" aria-labelledby="evidence-title">
+      <div class="page-width evidence-grid">
+        <div class="evidence-intro"><p class="small-label">Open the notebook</p><h2 id="evidence-title">The words have<br>a paper trail.</h2><p>A separate agent read the fictional brief and ran the three skills. The hero copy above is reproduced verbatim from its unedited output. “Before” comes from the source brief.</p><p class="evidence-date">Recorded 04 November 2026 · Hero copy only</p></div>
+        <div class="evidence-records">
+          <div class="record-row"><span class="record-number">01</span><div><h3>The source brief</h3><p>The audience, scope, unknowns, and original hero.</p></div><div class="file-actions"><a href="records/source.md" aria-label="View the source brief">View ↗</a><a href="records/source.md" download aria-label="Download the source brief">↓ <span class="sr-only">Download</span></a></div></div>
+          <div class="record-row"><span class="record-number">02</span><div><h3>The exact task</h3><p>What the agent was asked to produce and preserve.</p></div><div class="file-actions"><a href="records/task.md" aria-label="View the exact agent task">View ↗</a><a href="records/task.md" download aria-label="Download the exact agent task">↓ <span class="sr-only">Download</span></a></div></div>
+          <div class="record-row"><span class="record-number">03</span><div><h3>The unedited output</h3><p>Three directions, a fact ledger, and the recommendation.</p></div><div class="file-actions"><a href="records/output.md" aria-label="View the unedited agent output">View ↗</a><a href="records/output.md" download aria-label="Download the unedited agent output">↓ <span class="sr-only">Download</span></a></div></div>
+          <div class="record-row"><span class="record-number">04</span><div><h3>The run notes</h3><p>Files read, actions taken, and the run’s limits.</p></div><div class="file-actions"><a href="records/run-notes.md" aria-label="View the agent run notes">View ↗</a><a href="records/run-notes.md" download aria-label="Download the agent run notes">↓ <span class="sr-only">Download</span></a></div></div>
+          <details class="evidence-details"><summary>What this comparison can tell you <span aria-hidden="true">+</span></summary><div><p>The design stays fixed so you can compare how each lens uses the same facts. Offer was the agent’s strongest editorial recommendation because this brief provides concrete deliverables and boundaries.</p><p>The Resonance direction uses a working hypothesis about founders’ preferences. No customer research, reader testing, or conversion measurement supports it. The AI-generated portrait represents a fictional persona and supplies no proof.</p><p>The copy-only run did not inspect this implementation. Its four raw records are preserved here as byte-identical copies.</p></div></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-width site-footer"><a class="lab-link" href="../../">Landing Page Lab <span aria-hidden="true">↗</span></a><p>One source. A different way in.</p><a href="https://github.com/soohanjazzyun/landing-page-lab">Source on GitHub <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

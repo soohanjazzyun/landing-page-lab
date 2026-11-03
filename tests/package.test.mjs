@@ -47,4 +47,7 @@ test('a release removes stale files and all four archives contain the exact curr
       }
     }
   }
+  const firstSums = await readFile(resolve(root, 'dist/SHA256SUMS'), 'utf8');
+  execFileSync(process.execPath, ['scripts/package.mjs'], { cwd: root, stdio: 'pipe' });
+  assert.equal(await readFile(resolve(root, 'dist/SHA256SUMS'), 'utf8'), firstSums, 'Unchanged source must rebuild to identical archive bytes.');
 });

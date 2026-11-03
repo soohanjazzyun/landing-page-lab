@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { cp, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, mkdtemp, readdir, readFile, rm, utimes, writeFile } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
@@ -18,7 +18,20 @@ await mkdir(downloads, { recursive: true });
 async function archive(name, folder) {
   const path = join(dist, `${name}.zip`);
   await rm(path, { force: true });
-  execFileSync('zip', ['-qr', path, folder], { cwd: staging });
+  const entries = [];
+  async function collect(relative) {
+    for (const entry of (await readdir(join(staging, relative), { withFileTypes: true })).sort((a,b) => a.name.localeCompare(b.name, 'en'))) {
+      const child = `${relative}/${entry.name}`;
+      if (entry.isDirectory()) await collect(child);
+      else if (entry.isFile()) entries.push(child);
+      else throw new Error(`Cannot package a symlink or special file: ${child}`);
+    }
+  }
+  await collect(folder);
+  // Rebuilding unchanged source must yield identical archive bytes.
+  const epoch = new Date('2000-01-01T00:00:00Z');
+  for (const entry of entries) await utimes(join(staging, entry), epoch, epoch);
+  execFileSync('zip', ['-qX', path, ...entries], { cwd: staging, env: { ...process.env, TZ: 'UTC' } });
   await cp(path, join(downloads, `${name}.zip`));
   const sha = createHash('sha256').update(await readFile(path)).digest('hex');
   sums.push(`${sha}  ${name}.zip`);

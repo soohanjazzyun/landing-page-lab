@@ -63,8 +63,9 @@ installation are verified locally; other compatible assistants have not been
 separately behavior-tested. No hosted model, API key, or account is provided
 or required by this project. Your chosen agent may have its own requirements.
 
-Public links become available when the repository and demo are published.
-From a local checkout, run this from your own product's project folder:
+The repository and interactive demo are public. A clean remote installation
+of all three skills into Codex has been verified. To install a local checkout,
+run this from your own product's project folder:
 
 ```sh
 npx skills add /path/to/landing-page-lab --agent codex --copy

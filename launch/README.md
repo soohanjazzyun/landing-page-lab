@@ -14,7 +14,7 @@ is published and verified with the Made with AI label. [Creative hypothesis and 
 The follow-up [paired comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/)
 puts two fresh first outputs beside each other, then offers a one-command install
 and a small README task. [Recorded runs and limits](../docs/evaluation/paired-mina/README.md).
-Its own-channel post is an unscheduled draft in `x-posts.json`; it has not been posted.
+Its [own-channel image post](https://x.com/Jazz_from_Korea/status/2117788507553055094) is now published with the prepared hook, ALT description, and Made with AI label. The timeline and permalink were verified on 2026-11-04.
 
 Three original agent skills tackle three different decisions:
 

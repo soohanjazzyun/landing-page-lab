@@ -71,6 +71,8 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 - The [Impeccable playbook](../launch/impeccable-playbook.md) distinguishes observed presentation choices from causal growth claims. The pair uses the same fictional brief and guided task, not a verified same-model experiment. Both runs already produce usable copy. No winner or conversion effect is claimed.
 - Jazz chose case replication rather than contacting creators. Existing creator drafts remain unsent historical context. The new paired-comparison X text is a 240-weighted-character unscheduled draft; no additional post was published in this iteration.
 
+The subsequent [paired-comparison X post](https://x.com/Jazz_from_Korea/status/2117788507553055094) was explicitly requested by Jazz and published with the prepared hook and comparison screenshot. The home timeline and permalink confirm the exact text, image, ALT description, and Made with AI label; X displays 10:18 AM on Nov 4, Asia/Seoul. No performance conclusion is drawn at publication.
+
 ### Recorded-case update: 2026-11-04
 
 - Source update [4acb2dc](https://github.com/soohanjazzyun/landing-page-lab/commit/4acb2dcaa15ad79c54491dd00d064dcd15ef039c) adds the portrait-led Mina Studio case, two preserved actual agent tasks, and the 14-second proof film. The three skill instruction files and v0.2.0 code tag are unchanged.

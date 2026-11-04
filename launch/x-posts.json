@@ -1,7 +1,7 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Initial launch, credits reply, 34-second launch film, and portrait-led 14-second recorded-case post published. Other calendar posts remain unscheduled drafts. The original post edit did not save.",
+  "publication_status": "Initial launch, credits reply, 34-second film, 14-second recorded case, and paired comparison image post published. Other calendar posts remain unscheduled drafts. The original post edit did not save.",
   "posts": [
     {
       "id": "launch-a",
@@ -149,11 +149,14 @@
     {
       "id": "paired-mina-demo",
       "label": "Result-first paired comparison",
-      "status": "draft",
+      "status": "published",
       "weighted_characters": 240,
       "text": "Stop shipping your README as a homepage.\n\nI ran one brief twice: plain prompt vs. 3 free skills for story, audience, and offer.\n\nBoth first outputs are public. Try it on your README.\n\nFictional service; actual runs.\n\nhttps://soohanjazzyun.github.io/landing-page-lab/compare/",
       "attachment": "assets/plain-vs-skills.png",
-      "notes": "Unscheduled. Separate actual paired runs, not the earlier single-run 14-second clip. No winner, same-model, or conversion claim. Creator outreach excluded."
+      "notes": "Published with the exact prepared text and native comparison screenshot; verified on home timeline and permalink. ALT text and Made with AI label included. No winner, same-model or conversion claim. Creator outreach excluded.",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2117788507553055094",
+      "verified_at_utc": "2026-11-04T01:19:21.993974Z",
+      "displayed_publication_time": "10:18 AM, 2026-11-04, Asia/Seoul (X UI; minute precision)"
     }
   ],
   "updated_on": "2026-11-04"

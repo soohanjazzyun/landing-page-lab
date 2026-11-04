@@ -71,6 +71,14 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 - [Portrait-led X post](https://x.com/Jazz_from_Korea/status/2117767386929795138) published with “I gave my coding agent a marketing department.” The account timeline and permalink show the 14-second film, three credited inspirations, and Made with AI label. The UI displays 8:54 AM on Nov 4, Asia/Seoul; the activity log records a later verification timestamp.
 - The MP4 and poster were added as separate release media assets. No original ZIP, tag, or earlier X post was replaced. [Case and film record](portrait-case.md).
 
+The subsequent first-use update is source `8eb364fa900696c77c0e57d8cb0064cfecbd36fe`,
+deployed as Pages `86fc58451f9d39202f1d09cb3255b1fcc31ae4a3`. All 21 public
+files again match built bytes. The separate “Try this on your README” action
+reaches the existing workbench; the Clinic link now targets GitHub's issue form.
+Its effect on user adoption has not been measured. [Observed discovery](discovery-status.md)
+also records the three actual skills.sh entries and audit scope. A specific
+Paul Bakaus email is saved as an unsent draft; external-send approval is pending.
+
 The new case is an actual agent execution on a fictional service brief. A
 separate task audits the maintainer's real current page. Neither provides a
 customer result or conversion experiment; model identity remains unexposed.

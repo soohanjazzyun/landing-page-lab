@@ -1,0 +1,38 @@
+{
+  "prepared_at_utc": "2026-11-04T00:50:40.847658+00:00",
+  "source_commit": "d24d166bc6d8474f2f412fce83f315b403dd475f",
+  "design": "Two fresh independent agent runs; same source and requested deliverables; only treatment adds the three skill instructions. First outputs preserved.",
+  "model_identity": "Not exposed by the collaboration harness; no named-model equivalence or controlled performance result claimed.",
+  "inputs": {
+    "source.md": "5700fcb5ac120379296a16ec94c4e92f42e3ea29ad66e6a1078a3be765e40165",
+    "task.md": "b387dd49885538c0feede06da0b4b029e0b46f8704481960b6b1a39ff618d402"
+  },
+  "classification": "Fictional service brief; actual generated outputs; no customer or conversion result.",
+  "recorded_files": {
+    "source.md": "5700fcb5ac120379296a16ec94c4e92f42e3ea29ad66e6a1078a3be765e40165",
+    "task.md": "b387dd49885538c0feede06da0b4b029e0b46f8704481960b6b1a39ff618d402",
+    "plain/output.json": "f3853f6a1ffbe383fe4465b7f70fbb277c4ffa6d324babc160176bf55dd459d2",
+    "plain/run-notes.md": "2b975d1936625b43435b9d52862083e47c8622c7255254d9de8aeed8a51b1c78",
+    "skills/output.json": "52dca6531e63f2cd8ac6a7583a54092f5218e1f4a10317c989c50cbfd4e85c71",
+    "skills/run-notes.md": "cca9cb9d087e68fd4e4ab0896007b97e274e6e18b63e0d43502e01d342947283"
+  },
+  "instruction_commit": "d24d166bc6d8474f2f412fce83f315b403dd475f",
+  "instruction_files": {
+    "../../../skills/landing-page-story/SKILL.md": "19dc512ec15f5efedf351017d80f198edfc7b9da36c46eb7618cc550f91ab226",
+    "../../../skills/landing-page-resonance/SKILL.md": "1af65e767f13834b1133f56d24d1776195ef401954502f5a50aa97441ad9b35e",
+    "../../../skills/landing-page-offer/SKILL.md": "fd6a6a31295de1868e4fffc3136a1a30fbabf2201b81abb6718f1dea9726f807",
+    "../../../skills/landing-page-offer/references/judgment-and-examples.md": "ee9e2f7663e7da94397ef04d34768d1057892652f6017258801dc579fc7077e7"
+  },
+  "source_files": {
+    "docs/evaluation/mina-demo/source.md": "5700fcb5ac120379296a16ec94c4e92f42e3ea29ad66e6a1078a3be765e40165"
+  },
+  "public_exports": {
+    "source.md": "../../../site/compare/records/source.md",
+    "task.md": "../../../site/compare/records/task.md",
+    "plain/output.json": "../../../site/compare/records/plain-output.json",
+    "skills/output.json": "../../../site/compare/records/skills-output.json",
+    "plain/run-notes.md": "../../../site/compare/records/plain-run-notes.md",
+    "skills/run-notes.md": "../../../site/compare/records/skills-run-notes.md",
+    "manifest.json": "../../../site/compare/records/manifest.json"
+  }
+}

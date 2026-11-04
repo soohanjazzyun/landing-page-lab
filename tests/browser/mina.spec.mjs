@@ -72,6 +72,34 @@ test('the sample action reaches a real scope and all raw evidence is downloadabl
   expect(requests.every(request => new URL(request).origin === 'http://127.0.0.1:4173')).toBe(true);
 });
 
+test('Mina readers can take their README to the workbench and prepare one local skill prompt', async ({ page }, testInfo) => {
+  const requests = [];
+  page.on('request', request => requests.push(request));
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(url);
+  await expect(page.locator('.portrait')).toBeInViewport({ ratio: 1 });
+  await expect(page.locator('.project-link')).toHaveAttribute('href', '#sample-project');
+  const nextStep = page.getByRole('region', { name: 'Use the same skills on your product.' });
+  await expect(nextStep).toContainText('copy it into your own coding agent');
+  await page.screenshot({ path: testInfo.outputPath('mina-first-screen-mobile.png') });
+  await nextStep.scrollIntoViewIfNeeded();
+  await page.screenshot({ path: testInfo.outputPath('mina-try-readme-mobile.png') });
+  await nextStep.getByRole('link', { name: 'Try this on your README', exact: true }).click();
+  await expect(page).toHaveURL('http://127.0.0.1:4173/#workbench');
+  await expect(page.locator('#workbench')).toBeInViewport();
+
+  const readme = '# Lantern Desk\n\nFictional product for this browser test.\nHelps solo designers group project notes by client.\nPrimary CTA: Open the sample workspace.\nNo pricing or customer results are supplied.';
+  await page.getByLabel('Your README or product notes').fill(readme);
+  await page.getByRole('radio', { name: 'Offer', exact: true }).check();
+  await page.getByRole('button', { name: 'Make my agent prompt' }).click();
+  const prompt = await page.getByLabel('Ready for your coding agent').inputValue();
+  expect(prompt).toContain('Use landing-page-offer if installed.');
+  const sourceBlock = prompt.match(/BEGIN_(SOURCE_[a-zA-Z0-9]+)\n([\s\S]*)\nEND_\1/);
+  expect(sourceBlock?.[2]).toBe(readme);
+  await expect(page.getByRole('button', { name: 'Copy prompt', exact: true })).toBeEnabled();
+  expect(requests.every(request => new URL(request.url()).origin === 'http://127.0.0.1:4173' && request.method() === 'GET' && !request.url().includes('Lantern') && request.postData() === null)).toBe(true);
+});
+
 for (const width of [390, 1280]) {
   test(`Mina comparisons fit ${width}px, load the portrait, and pass automated contrast/accessibility checks`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });

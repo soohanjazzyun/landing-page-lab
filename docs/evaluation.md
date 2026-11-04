@@ -26,6 +26,20 @@ The [Mina portrait](mina-portrait.md) was generated separately. Neither its
 appearance nor the fictional persona supplies evidence about customer results,
 the skill's quality, conversion, or GitHub growth.
 
+### First-use routing follow-up: 2026-11-04
+
+The Mina comparison now offers a separate Landing Page Lab action to the
+existing README workbench. Its functional browser check follows that link,
+enters a fictional source, chooses Offer, and verifies the prepared prompt
+preserves the source with only local GET requests. The fictional service's
+own sample CTA and all recorded hero copy remain unchanged.
+
+In the five-scenario Mina group, the three functional checks passed. The two
+viewport/accessibility checks caught insufficient contrast in two new sage-panel
+paragraphs (4.45:1). Darkening those paragraphs fixed the actual UI issue; both
+390px and 1280px checks then passed for every lens. These are source/render
+checks, not evidence of an external user completing the task.
+
 ## Current three-skill behavioral trial
 
 An evaluator without the authoring conversation received only the three skill

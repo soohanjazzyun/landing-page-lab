@@ -79,6 +79,8 @@ npx skills add /path/to/landing-page-lab --agent codex --copy
 
 Individual portable ZIPs and a full three-skill bundle are in `site/downloads/`.
 
+Browse on skills.sh: [Story](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-story) · [Audience](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-resonance) · [Offer](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-offer).
+
 ## See the difference
 
 The demo holds product facts and visual design constant while you switch
@@ -158,7 +160,7 @@ These checks do not establish improved conversion rates.
 ## One Product, Three Pitches
 
 Have a public product whose homepage is hard to explain? Submit it through the
-[Homepage Clinic](.github/ISSUE_TEMPLATE/homepage-clinic.yml). Share only material
+[Homepage Clinic](https://github.com/soohanjazzyun/landing-page-lab/issues/new?template=homepage-clinic.yml). Share only material
 you have permission to make public. A submission does not guarantee a review;
 publication of a case study requires separate consent.
 

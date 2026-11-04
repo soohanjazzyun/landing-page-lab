@@ -1,12 +1,14 @@
 # Earn 3,000 genuine stars by making the work useful
 
-Owner: Jazz. Planning date: 2026-11-03. Public project: [Landing Page Lab](https://github.com/soohanjazzyun/landing-page-lab). Audience: English-speaking solo founders and developers who have a product README, a coding agent, and an unclear landing page.
+Owner: Jazz. Planning date: 2026-11-03. Execution update: 2026-11-04. Public project: [Landing Page Lab](https://github.com/soohanjazzyun/landing-page-lab). Audience: English-speaking solo founders and developers who have a product README, a coding agent, and an unclear landing page.
 
 **Goal:** 3,000 genuine GitHub stars. This is an objective, not a forecast, a 14-day promise, or a result already achieved. Stars, installs, observed real use, and useful contributions are different signals. No paid traffic, artificial engagement, or vote coordination is assumed.
 
 ## The product and the reason to share it
 
-**Opening:** Your AI can build a page. Give it a better brief.
+**Current published opening:** I gave my coding agent a marketing department.
+
+The initial 27-second, revised 34-second, and portrait-led 14-second X posts are public. The latest [recorded case](portrait-case.md) uses actual agent recommendations on a fictional brief. Its source, task, raw output and limitations are inspectable. This publication does not establish growth or a winning hook.
 
 Story makes the product understandable. Resonance chooses the people the page is for. Offer makes the actual deliverables, effort, terms, and commitment easier to evaluate. These are original operational skills by Jazz, with inspiration credited to Donald Miller, Seth Godin, and Alex Hormozi. They are not author impersonations, book substitutes, or endorsed implementations.
 
@@ -34,7 +36,7 @@ The [14-day calendar](../launch/calendar.md) has one owner, an action, an actual
 
 The first week establishes the install and explains the three decisions, then invites Clinic submissions. The second week publishes two more authored cases, observes any willing real users, prepares one small complementary workflow, and reviews actual evidence. A real case replaces an authored excerpt only after a real session and exact owner consent. Empty intake is not a reason to invent a participant.
 
-Use the [eight-source shortlist](../launch/prospects.md) for relevant distribution. Start with one creator whose work the example complements; do not blast every contact. skills.sh discovery follows actual CLI installs, not a manual announcement. Product Hunt has a prepared asset set. DevHunt has a free listing distinct from paid launches. Uneed's current form and plans need a final check. Show HN remains conditional on a substantial runnable project; the static gallery and prompt composer alone do not establish eligibility.
+Use the [eight-source shortlist](../launch/prospects.md) for relevant distribution. Start with one creator whose work the example complements; do not blast every contact. [All three skills are now listed on skills.sh](discovery-status.md). The observed aggregate is three install events, not three people or completed runs. Discovery follows actual CLI installs, not a manual announcement. Product Hunt has a prepared asset set. DevHunt has a free listing distinct from paid launches. Uneed's current form and plans need a final check. Show HN remains conditional on a substantial runnable project; the static gallery and prompt composer alone do not establish eligibility.
 
 ## Review points toward 3,000
 
@@ -50,7 +52,7 @@ These are review points, not fixed schedules. We do not know the exposure, conve
 
 ## Experiments and decision rules
 
-The [hypothesis sheet](../launch/hypotheses.csv) labels every planned test `unmeasured`. The first hook comparison uses the same clip and destination: builder-first A, demo-first B, and the three buyer questions C. Organic sequential posts have different audiences and timing, so their results cannot establish causal lift. Do not declare a winner from a handful of impressions or comments.
+The [hypothesis sheet](../launch/hypotheses.csv) labels every planned test `unmeasured`. A future controlled creative comparison should keep the clip and destination constant. The actual published posts changed both opening and video, so they do not isolate either effect. Organic sequential posts have different audiences and timing, so their results cannot establish causal lift. Do not declare a winner from a handful of impressions or comments.
 
 | Actual signal | Next useful action |
 | --- | --- |
@@ -64,7 +66,7 @@ The [hypothesis sheet](../launch/hypotheses.csv) labels every planned test `unme
 
 ## Measurement and the next two weeks
 
-[metrics.csv](../launch/metrics.csv) and [activity.csv](../launch/activity.csv) start with headers only. No baseline has been fabricated. Record the first observed public star count, not zero by assumption. Capture GitHub traffic on Day 1, Day 7, and Day 14, then weekly, with the exact rolling window. Track CLI install telemetry separately from observed external installations and completed tasks. [Measurement definitions](../launch/measurement.md) explain coverage and attribution limits.
+[metrics.csv](../launch/metrics.csv) contains observed baseline/traffic snapshots and [activity.csv](../launch/activity.csv) records completed public actions. The initial observed star baseline was zero; it was not assumed. External successful installation, completed tasks, repeat use and channel-attributed growth remain unmeasured. Keep the [directory snapshot](../launch/discovery-snapshot.json) separate from people and usage counts. Capture GitHub traffic on Day 1, Day 7, and Day 14, then weekly, with the exact rolling window. Track CLI install telemetry separately from observed external installations and completed tasks. [Measurement definitions](../launch/measurement.md) explain coverage and attribution limits.
 
 After Day 14, publish at most two useful cases per week, run one agreed complementary build, and ship one change tied to a reproducible problem. Review real use, repeat use, independent shares, and time per case before adding a channel. The next bet comes from that evidence, not from a fabricated growth curve.
 

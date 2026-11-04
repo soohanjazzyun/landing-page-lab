@@ -38,7 +38,8 @@ Jazz authored the implementation. Donald Miller, Seth Godin, and Alex Hormozi ar
 | [Demo shot list](demo-shotlist.md) | Same facts and same visual design; no implied conversion result |
 | [Founder Clinic](homepage-clinic.md) | Intake, selection, observed use, corrections, and publication |
 | [Owner consent](owner-consent.md) | Exact text, screenshots, credit, review, and optional quote permission |
-| [Creator pitches](collaboration-pitches.md) | Three relevant proposals with full Korean email translations |
+| [Creator pitches](collaboration-pitches.md), [one ready-to-review email](creator-outreach-ready.md) | Three proposals and one saved, unsent Paul Bakaus draft with English/Korean text |
+| [Observed discovery](../docs/discovery-status.md) | Three actual skills.sh entries, aggregate counts, and the observed audit limitation |
 | [Rights request](rights-request.md) | Bounded clarification draft if needed; not sent |
 | [Growth plan](../docs/growth-plan.md) | Review points toward 3,000 genuine stars and decisions driven by actual use |
 

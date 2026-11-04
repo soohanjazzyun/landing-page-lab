@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-11-04T00:03:59.667697Z",
+  "source": "https://www.skills.sh/soohanjazzyun/landing-page-lab",
+  "observed_via": "Official directory in browser; no install command run in this audit",
+  "listed_skills": 3,
+  "displayed_total_installs": 3,
+  "entries": [
+    {
+      "name": "landing-page-story",
+      "displayed_installs": 1,
+      "url": "https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-story"
+    },
+    {
+      "name": "landing-page-resonance",
+      "displayed_installs": 1,
+      "url": "https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-resonance"
+    },
+    {
+      "name": "landing-page-offer",
+      "displayed_installs": 1,
+      "url": "https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-offer"
+    }
+  ],
+  "interpretation_limits": [
+    "Anonymous aggregated install events, not unique people or active users",
+    "Maintainer install checks have already occurred and are excluded from external adoption",
+    "No external completed run or source of these install events is established"
+  ],
+  "story_snyk_audit": {
+    "url": "https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-story/security/snyk",
+    "displayed_status": "WARN",
+    "risk_level": "MEDIUM",
+    "code": "W011",
+    "audit_date_displayed": "Nov 3, 2026, 12:14 PM",
+    "risk_value_in_analysis": 0.1,
+    "scope": "Exposure from deliberately selected user files, READMEs and URLs; not evidence of an exploit or general security clearance"
+  }
+}

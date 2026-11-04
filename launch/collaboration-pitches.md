@@ -1,4 +1,6 @@
-# Three considered creator pitches
+# Three considered creator pitches (archived)
+
+2026-11-04: Jazz chose to understand and replicate the successful case instead of contacting its creator. These drafts are historical records and are not the current distribution plan.
 
 Drafts only. No messages were sent by this pack. Use the recipient's [verified public route](prospects.md), the actual release links, and the exact example referenced. The current account and external-send scope must be established before sending. Do not guess personal email addresses, send bulk messages, buy placement, or treat a draft as an accepted collaboration.
 

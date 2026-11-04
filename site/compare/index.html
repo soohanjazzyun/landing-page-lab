@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One fictional brief, two fresh agent runs. Compare a plain prompt with three free landing-page skills, inspect the raw outputs, then try your README.">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="One brief. Plain prompt vs. three skills.">
+  <meta property="og:description" content="Two fresh agent runs. Same brief and task. Inspect both outputs, then try your README.">
+  <meta property="og:url" content="https://soohanjazzyun.github.io/landing-page-lab/compare/">
+  <meta property="og:image" content="https://soohanjazzyun.github.io/landing-page-lab/compare/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Plain prompt vs. three skills · Landing Page Lab</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#comparison">Skip to comparison</a>
+  <header class="site-header page-width"><a class="brand" href="../"><span aria-hidden="true">↖</span> Landing Page Lab</a><a class="header-link" href="#evidence">Inspect the runs <span aria-hidden="true">↘</span></a></header>
+  <main>
+    <section class="comparison-section page-width" id="comparison" aria-labelledby="comparison-heading">
+      <div class="intro"><div><p class="kicker">A landing page starts with what you say.</p><h1 id="comparison-heading">One brief.<br>Plain prompt vs. three skills.</h1></div><div class="intro-action"><a class="button" href="../#workbench">Try your README <span aria-hidden="true">↗</span></a><a class="text-link" href="#quick-start">Or start in your agent <span aria-hidden="true">↘</span></a></div></div>
+      <div class="comparison-toolbar"><div class="lens-controls" role="group" aria-label="Choose a messaging lens"><button type="button" data-lens="story" aria-pressed="false" aria-controls="previews">Story</button><button type="button" data-lens="resonance" aria-pressed="true" aria-controls="previews">Audience</button><button type="button" data-lens="offer" aria-pressed="false" aria-controls="previews">Offer</button></div><p id="lens-description">Who is this for? Both runs answer the same question.</p></div>
+      <div class="comparison-caption"><p>Fictional demo · AI-generated portrait</p><p>Same portrait. Same design. Unedited copy.</p></div>
+      <div class="comparison-grid" id="previews">
+        <article class="condition" data-condition="plain" aria-labelledby="plain-label">
+          <header class="condition-label"><h2 id="plain-label">Plain prompt</h2><span>Brief + task</span></header>
+          <div class="page-preview">
+            <div class="studio-masthead"><span class="studio-wordmark">mina<span>.</span><small>STUDIO</small></span><span>Independent product designer</span></div>
+            <div class="preview-hero">
+              <div class="preview-copy"><p class="eyebrow">Product design for SaaS</p><h3 data-copy="headline">For SaaS founders revisiting their product’s first-use flow.</h3></div>
+              <div class="portrait"><img src="../cases/mina-studio/assets/mina-portrait.png" width="1086" height="1448" alt="AI-generated portrait of the fictional adult Mina Studio persona seated beside a sunlit window." fetchpriority="high"></div>
+              <p class="preview-body" data-copy="body">For solo founders and small founder-led teams with an existing SaaS product: one flow, up to five screens, with annotated Figma screens, a clickable prototype, one handoff call and one revision.</p>
+              <a class="sample-cta" href="#sample-project" data-copy="cta">See a sample project</a>
+            </div>
+            <div class="preview-foot"><span>One existing flow</span><span>Up to five screens</span></div>
+          </div>
+        </article>
+        <article class="condition" data-condition="skills" aria-labelledby="skills-label">
+          <header class="condition-label"><h2 id="skills-label">With three skills</h2><span>Brief + task + skills</span></header>
+          <div class="page-preview">
+            <div class="studio-masthead"><span class="studio-wordmark">mina<span>.</span><small>STUDIO</small></span><span>Independent product designer</span></div>
+            <div class="preview-hero">
+              <div class="preview-copy"><p class="eyebrow">Product design for SaaS</p><h3 data-copy="headline">Already have a product and a developer? Revisit first use.</h3></div>
+              <div class="portrait"><img src="../cases/mina-studio/assets/mina-portrait.png" width="1086" height="1448" alt="AI-generated portrait of the fictional adult Mina Studio persona seated beside a sunlit window." fetchpriority="high"></div>
+              <p class="preview-body" data-copy="body">Bring your existing onboarding or first-use flow, up to five screens. Mina Studio reviews it and delivers annotated Figma screens, a clickable prototype, one handoff call and one revision.</p>
+              <a class="sample-cta" href="#sample-project" data-copy="cta">See a sample project</a>
+            </div>
+            <div class="preview-foot"><span>One existing flow</span><span>Up to five screens</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="run-note">Two fresh agent runs. Same brief and task. First outputs, no manual copy edits.</p>
+      <p class="sr-only" id="lens-status" role="status" aria-live="polite" aria-atomic="true">Audience selected. Both agent outputs are shown.</p>
+      <p class="load-error" id="load-error" role="alert" hidden>Could not load the run records. The default Audience comparison is shown. <a href="records/plain-output.json">Read the plain output</a> or <a href="records/skills-output.json">read the skills output</a>.</p>
+    </section>
+    <section class="quick-start page-width" id="quick-start" aria-labelledby="start-heading">
+      <div class="start-heading"><p class="kicker">Your README. Your coding agent.</p><h2 id="start-heading">Try one hero first.</h2><p>Install the three skills, then paste this task and your README into your agent.</p><a class="text-link" href="../#workbench">Build a prompt in the workbench <span aria-hidden="true">↗</span></a></div>
+      <div class="start-steps"><div class="step-heading"><label for="install-command">01 / Install</label><button type="button" class="copy-button" data-copy-target="install-command">Copy command</button></div><textarea class="install-command" id="install-command" readonly rows="2" spellcheck="false">npx skills add soohanjazzyun/landing-page-lab</textarea><p class="step-note">Choose your agent and all three skills when prompted.</p><div class="step-heading"><label for="hero-prompt">02 / Give your agent a small task</label><button type="button" class="copy-button" data-copy-target="hero-prompt">Copy task</button></div><textarea id="hero-prompt" readonly rows="6" spellcheck="false">Use landing-page-story, landing-page-resonance, and landing-page-offer
+to propose three hero directions from my README.
+For each, return one headline, one sentence, and my existing CTA.
+Keep the product facts. Mark missing evidence. Explain one tradeoff.
+Source: [paste my README]</textarea><p class="step-note">Run it in your own coding agent. These controls only copy text.</p><p class="copy-status" id="copy-status" role="status" aria-live="polite"></p></div>
+    </section>
+    <section class="sample-section page-width" id="sample-project" aria-labelledby="sample-heading" tabindex="-1">
+      <div><p class="kicker">The fictional CTA leads here</p><h2 id="sample-heading">A sample scope.<br>One first-use flow.</h2><p class="section-description">An illustration from the source brief. No client project or delivered Figma file is represented.</p></div>
+      <div class="sample-content"><div class="flow-diagram"><span>One existing onboarding or first-use flow</span><ol aria-label="Illustrative scope of up to five screens"><li>01</li><li>02</li><li>03</li><li>04</li><li>05</li></ol><p>Up to five screens. Your developer implements the design.</p></div><dl class="scope-list"><div><dt>You bring</dt><dd>A product link or walkthrough recording, your chosen first-use task, and existing design files where available.</dd></div><div><dt>The illustrative handoff</dt><dd>Annotated Figma screens, a clickable prototype for that flow, one handoff call and one revision.</dd></div><div><dt>Outside the scope</dt><dd>Implementation, user interviews, brand identity, ongoing support, and a full product redesign.</dd></div></dl><p class="scope-note">Price, timeline, client results, and guarantees are unknown. This is a local illustrative sample, not a booking action. <a href="records/source.md">Read the brief ↗</a></p></div>
+    </section>
+    <section class="evidence-section page-width" aria-label="Run evidence">
+      <details id="evidence"><summary><span><span class="kicker">Open records</span><span class="evidence-title">Brief. Task. Both raw outputs.</span></span><span class="disclosure-symbol" aria-hidden="true">+</span></summary><div class="evidence-content"><div class="limits"><h2>What you’re comparing</h2><p>The plain run read the source and shared task. The other run also read landing-page-story, landing-page-resonance, and landing-page-offer. Each returned three hero directions.</p><p>Both can write good copy. This pair shows their choices on one fictional brief; it is not an effect test, a conversion test, or evidence of a winner.</p><p>Audience opens first as an editorial choice for this display. Both agents recommended Story. The three controls show every option in both records, verbatim.</p><p>Model identity was not exposed by the agent harness. We cannot claim the same model or a named-model comparison.</p><p>The agents wrote the copy. The shared visual shell was built afterward. The source, task, outputs, run notes, and manifest below are byte-identical copies of the saved records.</p><p class="recorded-date">Recorded 04 November 2026</p></div><ul class="record-list"><li><a href="records/source.md" download aria-label="Download source brief"><span>Source brief</span><span class="record-description">Audience, scope, unknowns, and the original hero.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/task.md" download aria-label="Download shared task"><span>Shared task</span><span class="record-description">The same three hero options and constraints.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/plain-output.json" download aria-label="Download plain output"><span>Plain output</span><span class="record-description">First completed output, preserved as written.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/skills-output.json" download aria-label="Download skills output"><span>Skills output</span><span class="record-description">First completed output, preserved as written.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/plain-run-notes.md" download aria-label="Download plain run notes"><span>Plain run notes</span><span class="record-description">Exactly what the plain run read and did.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/skills-run-notes.md" download aria-label="Download skills run notes"><span>Skills run notes</span><span class="record-description">Exactly what the skills run read and did.</span><span aria-hidden="true">↓</span></a></li>
+<li><a href="records/manifest.json" download aria-label="Download run manifest"><span>Run manifest</span><span class="record-description">Input hashes, run design, and model-identity limits.</span><span aria-hidden="true">↓</span></a></li></ul></div></details>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><a class="brand" href="../">Landing Page Lab <span aria-hidden="true">↗</span></a><a href="../#install">Get the three free skills</a><p class="footer-credit"><a href="../#credits-heading">Independent workflows by Jazz, inspired by Donald Miller, Seth Godin, and Alex Hormozi.</a></p></footer>
+  <noscript><p class="page-width">JavaScript is needed to switch lenses and copy the task. The Audience outputs and all downloadable records remain available.</p></noscript>
+</body>
+</html>

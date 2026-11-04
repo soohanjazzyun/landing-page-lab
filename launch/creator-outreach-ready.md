@@ -1,6 +1,6 @@
 # Paul Bakaus에게 보낼 검토 요청 초안
 
-- 상태: **DRAFT / 발송하지 않음**. 개인 Gmail 작성함에 미발송 초안을 저장했다. 폼 제출, 이메일 발송, LinkedIn 메시지, 소셜 행동을 하지 않았다. 발송 전 Jazz의 명시적 승인이 필요하다.
+- 상태: **CANCELLED / 발송하지 않음**. 2026-11-04 Jazz가 외부 연락 대신 성공 사례의 방식을 분석해 적용하도록 지시했다. 이 메일은 발송하지 않는다. 개인 Gmail 작성함에 미발송 초안을 저장했다. 폼 제출, 이메일 발송, LinkedIn 메시지, 소셜 행동을 하지 않았다. 기존 미발송 초안은 기록으로만 남긴다.
 - 확인일: **2026-11-04, Asia/Seoul**.
 - 수신자: **Paul Bakaus**, Impeccable 제작자.
 - 사용할 경로: **`paul@paulbakaus.com`으로 이메일**. 추정한 주소가 아니다. [공식 About 페이지](https://www.paulbakaus.com/about/)의 공개 Contact / Email 링크에서 확인했다. 같은 페이지는 협업 제안을 이메일 또는 LinkedIn으로 받는다고 명시한다.

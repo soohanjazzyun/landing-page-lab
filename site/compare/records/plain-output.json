@@ -1,0 +1,37 @@
+{
+  "options": {
+    "story": {
+      "headline": "Design the first-use flow your developer will build.",
+      "body": "Review one existing onboarding or first-use flow, up to five screens. Get annotated Figma screens, a clickable prototype, one handoff call and one revision.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Leads with the founder’s design task and connects the design work to implementation by their developer."
+    },
+    "resonance": {
+      "headline": "For SaaS founders revisiting their product’s first-use flow.",
+      "body": "For solo founders and small founder-led teams with an existing SaaS product: one flow, up to five screens, with annotated Figma screens, a clickable prototype, one handoff call and one revision.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Makes the audience and existing-product situation explicit so founders can judge whether the service fits their current work."
+    },
+    "offer": {
+      "headline": "One flow, up to five screens, with a clickable prototype.",
+      "body": "Receive annotated Figma screens, one handoff call and one revision for an existing onboarding or first-use flow. Bring a product link or walkthrough recording and your chosen first-use task.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Puts the bounded scope and tangible deliverables first, then states what the founder brings to the work."
+    }
+  },
+  "recommended": "story",
+  "tradeoff": "Story connects the founder’s next design task to their developer’s implementation. Resonance identifies the audience more directly, while offer gives the five-screen boundary more prominence.",
+  "limitations": [
+    "Editorial disclosure outside hero copy: Mina Studio and its persona are fictional demo material. The AI-generated portrait represents that fictional persona. Keep the separate visible disclosure in implementation.",
+    "The portrait is not a real customer, testimonial, founder of Landing Page Lab, or evidence of results. No real clients, results, availability, booking, reputation, or person are evidenced.",
+    "Mina Studio is an independent product-design service for solo SaaS founders and small founder-led software teams with an existing product.",
+    "The scope is one existing onboarding or first-use flow, up to five screens, with annotated Figma screens, a clickable prototype, one handoff call and one revision.",
+    "The founder supplies a product link or walkthrough recording, their chosen first-use task, and existing design files where available. Their developer implements the design.",
+    "Implementation, user interviews, brand identity, ongoing support, and a full product redesign are outside scope. Price, timeline, client results and guarantees are unknown.",
+    "The CTA links to a local illustrative sample project, not a contact or booking action.",
+    "Across the comparison, retain one human portrait and the same typography, background and layout."
+  ]
+}

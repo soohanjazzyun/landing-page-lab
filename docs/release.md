@@ -77,7 +77,7 @@ files again match built bytes. The separate “Try this on your README” action
 reaches the existing workbench; the Clinic link now targets GitHub's issue form.
 Its effect on user adoption has not been measured. [Observed discovery](discovery-status.md)
 also records the three actual skills.sh entries and audit scope. A specific
-Paul Bakaus email is saved as an unsent draft; external-send approval is pending.
+Paul Bakaus email remains an unsent draft. Jazz subsequently chose case/playbook replication instead of creator outreach; this draft is cancelled and will not be sent.
 
 The new case is an actual agent execution on a fictional service brief. A
 separate task audits the maintainer's real current page. Neither provides a

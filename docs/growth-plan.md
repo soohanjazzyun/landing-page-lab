@@ -36,7 +36,7 @@ The [14-day calendar](../launch/calendar.md) has one owner, an action, an actual
 
 The first week establishes the install and explains the three decisions, then invites Clinic submissions. The second week publishes two more authored cases, observes any willing real users, prepares one small complementary workflow, and reviews actual evidence. A real case replaces an authored excerpt only after a real session and exact owner consent. Empty intake is not a reason to invent a participant.
 
-Use the [eight-source shortlist](../launch/prospects.md) for relevant distribution. Start with one creator whose work the example complements; do not blast every contact. [All three skills are now listed on skills.sh](discovery-status.md). The observed aggregate is three install events, not three people or completed runs. Discovery follows actual CLI installs, not a manual announcement. Product Hunt has a prepared asset set. DevHunt has a free listing distinct from paid launches. Uneed's current form and plans need a final check. Show HN remains conditional on a substantial runnable project; the static gallery and prompt composer alone do not establish eligibility.
+Use the [eight-source shortlist](../launch/prospects.md) for relevant distribution. Current direction: replicate the useful presentation and distribution format from the [Impeccable case](../launch/impeccable-playbook.md), without contacting its creator. The new paired comparison keeps the source and task fixed and exposes both first outputs. [All three skills are now listed on skills.sh](discovery-status.md). The observed aggregate is three install events, not three people or completed runs. Discovery follows actual CLI installs, not a manual announcement. Product Hunt has a prepared asset set. DevHunt has a free listing distinct from paid launches. Uneed's current form and plans need a final check. Show HN remains conditional on a substantial runnable project; the static gallery and prompt composer alone do not establish eligibility.
 
 ## Review points toward 3,000
 
@@ -45,7 +45,7 @@ Use the [eight-source shortlist](../launch/prospects.md) for relevant distributi
 | Before a baseline | Working public install of all three skills; inspectable examples; actual release verification | A clean install and an external person completing a permitted narrow task, when a volunteer is available | Repair a broken first task before broader promotion |
 | First 100 | Answer launch questions; observe willing users; publish one consented case when available | Source/output records, recurring confusion, blocked steps | Tighten the brief and quick start around the actual failure |
 | 100-500 | Repeat the strongest case format; make one substantive improvement | Completed tasks and independent shares from relevant builders | Repeat useful work, not simply more posts |
-| 500-1,500 | One agreed complementary creator build; a small reproducible case gallery | At least two contexts bringing real trials; sustainable maintainer time | Focus on the audience where the workflow is useful |
+| 500-1,500 | A useful independently built companion example; a small reproducible case gallery | At least two contexts bringing real trials; sustainable maintainer time | Focus on the audience where the workflow is useful |
 | 1,500-3,000 | A substantial release from recurring failures; reintroduce it through actual cases | Repeat use, voluntary recommendations, useful contributions | Expand the loop that works; keep failure evidence visible |
 
 These are review points, not fixed schedules. We do not know the exposure, conversion rate, or time required to reach them. Other repositories' cumulative stars demonstrate possible interest in agent skills; they do not predict this project's outcome. The [reference notebook](references.md) records the actual observations and limits.
@@ -60,7 +60,7 @@ The [hypothesis sheet](../launch/hypotheses.csv) labels every planned test `unme
 | Visitors do not reach installation | Observe the route and remove the first clear obstacle |
 | Installs without usable output | Watch one permitted run; inspect the first wrong fact or decision |
 | Useful output without voluntary sharing | Offer a concise share artifact about the founder's product, with no requirement to post |
-| Repeated useful runs in one niche | Make the next case for that niche and approach one adjacent creator |
+| Repeated useful runs in one niche | Make the next case for that niche and adapt the proven public format to one relevant owned channel |
 | Heavy support or recurring wrong assumptions | Narrow the task and fix the skill before seeking more reach |
 | Impressions but no task evidence | Treat it as reach, not product validation |
 

@@ -143,8 +143,17 @@
       "evidence": "Actual agent run on a fictional brief; AI-generated portrait; no conversion or copywriter-replacement claim.",
       "public_url": "https://x.com/Jazz_from_Korea/status/2117767386929795138",
       "verified_at_utc": "2026-11-03T23:56:29.458542Z",
-      "published_time_display": "8:54 AM \u00b7 Nov 4, 2026 (Asia/Seoul; minute precision)",
+      "published_time_display": "8:54 AM · Nov 4, 2026 (Asia/Seoul; minute precision)",
       "ai_disclosure": "Made with AI, enabled and verified in the published UI"
+    },
+    {
+      "id": "paired-mina-demo",
+      "label": "Result-first paired comparison",
+      "status": "draft",
+      "weighted_characters": 240,
+      "text": "Stop shipping your README as a homepage.\n\nI ran one brief twice: plain prompt vs. 3 free skills for story, audience, and offer.\n\nBoth first outputs are public. Try it on your README.\n\nFictional service; actual runs.\n\nhttps://soohanjazzyun.github.io/landing-page-lab/compare/",
+      "attachment": "assets/plain-vs-skills.png",
+      "notes": "Unscheduled. Separate actual paired runs, not the earlier single-run 14-second clip. No winner, same-model, or conversion claim. Creator outreach excluded."
     }
   ],
   "updated_on": "2026-11-04"

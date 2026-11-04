@@ -1,0 +1,33 @@
+{
+  "options": {
+    "story": {
+      "headline": "Give your developer a design for your product’s first-use flow.",
+      "body": "Mina Studio reviews one existing onboarding or first-use flow, up to five screens, then delivers annotated Figma screens, a clickable prototype, one handoff call and one revision.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Connects the founder’s design task to the artifacts their developer receives."
+    },
+    "resonance": {
+      "headline": "Already have a product and a developer? Revisit first use.",
+      "body": "Bring your existing onboarding or first-use flow, up to five screens. Mina Studio reviews it and delivers annotated Figma screens, a clickable prototype, one handoff call and one revision.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Opens with the existing-product situation and the founder’s implementation resource."
+    },
+    "offer": {
+      "headline": "Annotated Figma screens and a clickable prototype for one flow.",
+      "body": "Mina Studio reviews up to five existing onboarding or first-use screens. Include your product link or walkthrough and chosen first-use task; get one handoff call and one revision. Your developer implements.",
+      "cta": "See a sample project",
+      "href": "#sample-project",
+      "reason": "Leads with tangible deliverables, then states the founder’s inputs and implementation responsibility."
+    }
+  },
+  "recommended": "story",
+  "tradeoff": "Story makes the founder’s task and design mechanism explicit; offer gives more space to required inputs and the implementation boundary.",
+  "limitations": [
+    "Editorial disclosure: Mina Studio and its persona are fictional demo material. No real clients, results, availability, booking or reputation are evidenced. The AI-generated portrait represents only the demo persona; retain a separate visible disclosure.",
+    "Intended customers are solo SaaS founders and small founder-led software teams with an existing product. Each option describes one flow of up to five screens; the founder’s developer implements it.",
+    "Work uses a product link or walkthrough recording, the founder’s chosen first-use task, and existing design files where available. Implementation, user interviews, brand identity, ongoing support and a full product redesign are excluded. Price, timeline, client results and guarantees are unknown.",
+    "The CTA opens a local illustrative sample, not contact or booking. Keep one human portrait and the same typography, background and layout. Copy was reviewed only; no implementation, visual, live-link, demand or conversion validation was performed."
+  ]
+}

@@ -3,6 +3,28 @@
 Updated: 2026-11-04. Authored examples, actual agent trials, software checks,
 and real-world marketing outcomes are different kinds of evidence.
 
+## Paired plain-prompt and skill runs: 2026-11-04
+
+The new [side-by-side comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/)
+shows two fresh runs on the same fictional source and task, with the first
+outputs preserved. One run adds the three skill instructions. Every Story,
+Audience, and Offer option is available in the same visual shell. The shared
+task already guides the three lenses; model identity was not exposed.
+
+Read the [paired record, outputs, and limits](evaluation/paired-mina/README.md).
+Both runs produce useful copy; this is a demonstration of choices rather than
+evidence of a winner or improved conversion. Six targeted comparison browser
+checks passed, including exact output rendering, seven byte-identical public
+records, keyboard/history, local prompt preparation and clipboard actions,
+and 390/1280px layout with automated WCAG A/AA checks. A stale manifest export
+was caught and recopied before the evidence-download check passed.
+
+After linking the new comparison from the main site and earlier Mina case,
+all 18 existing main-site/Mina browser scenarios passed together. The recorded
+input, versioned source/instruction, and public export verifier passed 41 checks.
+The four rebuilt skill ZIPs have unchanged hashes because this update changes
+the presentation and evidence, not the released skill instructions.
+
 ## Recorded hero runs: 2026-11-04
 
 Two fresh evaluators without the authoring conversation completed narrow hero tasks:

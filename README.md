@@ -8,20 +8,36 @@ directions, copy, and a build handoff: **the story, the audience, and the offer*
 Created by [Jazz](https://github.com/soohanjazzyun) for solo founders and developers
 building products with AI.
 
-[![Mina Studio: the same portrait and layout with a different landing-page pitch](assets/mina-studio-proof-poster.png)](assets/mina-studio-proof.mp4)
+```sh
+npx skills add soohanjazzyun/landing-page-lab
+```
 
-[Try the recorded skill comparison](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/) ·
+[![One brief: actual plain-prompt and three-skill outputs, with the same portrait and design](assets/plain-vs-skills.png)](https://soohanjazzyun.github.io/landing-page-lab/compare/)
+
+[Compare plain prompt vs. three skills](https://soohanjazzyun.github.io/landing-page-lab/compare/) ·
+[Try it on your README](https://soohanjazzyun.github.io/landing-page-lab/#workbench) ·
 [Watch the 14-second proof clip](assets/mina-studio-proof.mp4) ·
 [Inspect actual independent runs](docs/evaluation.md)
 
-The featured page uses an AI-generated portrait and a fictional design service.
-Its three recommended heroes are the exact output of an actual agent run.
-Inspect the [source](docs/evaluation/mina-demo/source.md),
-[task](docs/evaluation/mina-demo/task.md), and
-[unedited output](docs/evaluation/mina-demo/output.md).
+Two fresh agent runs. Same brief and task. First outputs, no manual copy edits.
+Switch Story, Audience, and Offer to inspect every option in both records.
+The service is fictional and the portrait is AI-generated. This pair shows
+different choices, not a measured winner. [Brief, task, and both outputs](docs/evaluation/paired-mina/README.md).
 
 Your agent can build the page. Give it a useful way to decide what that page
 should say, using the facts you actually have.
+
+## Try one hero first
+
+After installing all three skills, give your coding agent this small task:
+
+```text
+Use landing-page-story, landing-page-resonance, and landing-page-offer
+to propose three hero directions from my README.
+For each, return one headline, one sentence, and my existing CTA.
+Keep the product facts. Mark missing evidence. Explain one tradeoff.
+Source: [paste my README]
+```
 
 ## Pick the problem
 
@@ -36,13 +52,9 @@ Seth Godin, and Alex Hormozi. They do not impersonate the authors or reproduce
 an official course. Independent project; no affiliation or endorsement.
 [Credits and boundaries](NOTICE.md) · [Rights review and limitations](docs/rights-review.md).
 
-## Install
+## Installation options
 
-```sh
-npx skills add soohanjazzyun/landing-page-lab
-```
-
-Select the skills you want. To install one directly:
+The command above lets you choose your agent and skills. To install one directly:
 
 ```sh
 npx skills add soohanjazzyun/landing-page-lab --skill landing-page-story
@@ -93,11 +105,13 @@ page structure, copy, and implementation handoff for each direction.
 | [ShipWatch](examples/shipwatch/README.md) | Shows when scheduled jobs miss a heartbeat; it does not retry the jobs. |
 | [Slotwise](examples/slotwise/README.md) | Lets clients choose available appointment slots in their time zone. |
 
-The three examples above are **authored illustrations**. The separate
-[Mina Studio comparison](site/cases/mina-studio/index.html) renders an actual
-agent's recommendations from a fictional brief. Neither kind is a customer
-result, conversion experiment, or model benchmark. Actual independent agent
-runs and their limitations are documented in [evaluation](docs/evaluation.md).
+The three examples above are **authored illustrations**. The
+[paired Mina comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/)
+renders two actual runs on the same fictional brief and task. The earlier
+[single-run Mina case](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/)
+is the source of the 14-second clip. These are separate recorded tasks, not
+customer results, conversion experiments, or model benchmarks. Their records
+and limitations are documented in [evaluation](docs/evaluation.md).
 
 The local prompt composer prepares a task for your agent. It does not analyze
 your product with a model, upload your README, or generate marketing copy itself.

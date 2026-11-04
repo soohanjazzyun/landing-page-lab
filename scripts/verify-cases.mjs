@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const cases = ['current-page', 'mina-demo'];
+const cases = ['current-page', 'mina-demo', 'paired-mina'];
 let verified = 0;
 const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 function original(commit, file) {
@@ -32,6 +32,14 @@ for (const name of cases) {
   }
   for (const [file, expected] of Object.entries(manifest.source_files || {})) {
     if (digest(original(manifest.source_commit, file)) !== expected) throw new Error(`${name}: source differs from recorded commit: ${file}`);
+    verified++;
+  }
+  for (const [file, servedFile] of Object.entries(manifest.public_exports || {})) {
+    const source = resolve(folder, file);
+    const served = resolve(folder, servedFile);
+    const boundary = root.endsWith(sep) ? root : root + sep;
+    if (!source.startsWith(boundary) || !served.startsWith(boundary)) throw new Error(`Outside repository export: ${file}`);
+    if (!(await readFile(source)).equals(await readFile(served))) throw new Error(`${name}: public evidence differs: ${file}`);
     verified++;
   }
 }

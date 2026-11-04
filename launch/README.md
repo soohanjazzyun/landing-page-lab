@@ -11,6 +11,11 @@ On 2026-11-04, a [portrait-led recorded skill case](../docs/portrait-case.md) an
 marketing department.” The [new X post](https://x.com/Jazz_from_Korea/status/2117767386929795138)
 is published and verified with the Made with AI label. [Creative hypothesis and exact post](face-led-case.md).
 
+The follow-up [paired comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/)
+puts two fresh first outputs beside each other, then offers a one-command install
+and a small README task. [Recorded runs and limits](../docs/evaluation/paired-mina/README.md).
+Its own-channel post is an unscheduled draft in `x-posts.json`; it has not been posted.
+
 Three original agent skills tackle three different decisions:
 
 - **Story:** make the product understandable through a customer task, explanation, page sequence, and next step.
@@ -26,7 +31,7 @@ Jazz authored the implementation. Donald Miller, Seth Godin, and Alex Hormozi ar
 3. Review the [launch copy](channel-copy.md) and [actual activity](activity.csv) before any follow-up. The confirmed X account is `@jazz_from_korea`. Launch A and its credits/demo reply are complete; other drafts are not scheduled or published activity.
 4. Work through the [14-day calendar](calendar.md). Its posts are drafts, not scheduled or submitted activity.
 5. Run the [Founder Clinic](homepage-clinic.md) and get [specific case consent](owner-consent.md) before publishing someone else's product.
-6. Approach relevant people with [tailored pitches](collaboration-pitches.md), using the [eight verified prospects and surfaces](prospects.md). No guessed email addresses or bulk outreach.
+6. Current direction (2026-11-04): study the [Impeccable presentation playbook](impeccable-playbook.md) and apply the useful format. Creator outreach is excluded by Jazz’s instruction; older pitches are historical drafts.
 7. Record observations using [measurement definitions](measurement.md), [metrics.csv](metrics.csv), and [activity.csv](activity.csv). Keep [hypotheses](hypotheses.csv) separate.
 
 ## Ready to use
@@ -38,7 +43,7 @@ Jazz authored the implementation. Donald Miller, Seth Godin, and Alex Hormozi ar
 | [Demo shot list](demo-shotlist.md) | Same facts and same visual design; no implied conversion result |
 | [Founder Clinic](homepage-clinic.md) | Intake, selection, observed use, corrections, and publication |
 | [Owner consent](owner-consent.md) | Exact text, screenshots, credit, review, and optional quote permission |
-| [Creator pitches](collaboration-pitches.md), [one ready-to-review email](creator-outreach-ready.md) | Three proposals and one saved, unsent Paul Bakaus draft with English/Korean text |
+| [Creator pitches](collaboration-pitches.md), [one ready-to-review email](creator-outreach-ready.md) | Historical drafts; the unsent Paul draft is cancelled by Jazz’s no-outreach direction |
 | [Observed discovery](../docs/discovery-status.md) | Three actual skills.sh entries, aggregate counts, and the observed audit limitation |
 | [Rights request](rights-request.md) | Bounded clarification draft if needed; not sent |
 | [Growth plan](../docs/growth-plan.md) | Review points toward 3,000 genuine stars and decisions driven by actual use |

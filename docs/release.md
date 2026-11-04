@@ -63,6 +63,14 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 
 ## The launch work after publication
 
+### Result-first paired comparison: 2026-11-04
+
+- Source [ac8035a](https://github.com/soohanjazzyun/landing-page-lab/commit/ac8035a48b9bd22261e2125c468d2092c3378e24) adds the [plain-prompt vs. skills comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/), the exact two first outputs, a one-command install and a small first README task. The README now leads with the real comparison screenshot. Main-site and earlier Mina links reach it.
+- Pages commit `08bf252c480400dc90338aaf9735428cb5043b8d` built successfully. All 32 public files match the built artifact byte-for-byte, including seven paired records and all four ZIPs. The skill ZIP hashes and v0.2.0 code tag are unchanged.
+- Six targeted comparison browser checks passed. All 18 existing main-site/Mina scenarios then passed together after integration. The source/instruction/output/public-record verifier passed 41 checks; syntax, relative links and whitespace passed.
+- The [Impeccable playbook](../launch/impeccable-playbook.md) distinguishes observed presentation choices from causal growth claims. The pair uses the same fictional brief and guided task, not a verified same-model experiment. Both runs already produce usable copy. No winner or conversion effect is claimed.
+- Jazz chose case replication rather than contacting creators. Existing creator drafts remain unsent historical context. The new paired-comparison X text is a 240-weighted-character unscheduled draft; no additional post was published in this iteration.
+
 ### Recorded-case update: 2026-11-04
 
 - Source update [4acb2dc](https://github.com/soohanjazzyun/landing-page-lab/commit/4acb2dcaa15ad79c54491dd00d064dcd15ef039c) adds the portrait-led Mina Studio case, two preserved actual agent tasks, and the 14-second proof film. The three skill instruction files and v0.2.0 code tag are unchanged.

@@ -18,7 +18,7 @@ coding agent; its normal access and usage requirements apply.
 [![One brief: actual plain-prompt and three-skill outputs, with the same portrait and design](assets/plain-vs-skills.png)](https://soohanjazzyun.github.io/landing-page-lab/compare/)
 
 [**See both actual outputs →**](https://soohanjazzyun.github.io/landing-page-lab/compare/) ·
-[Watch **English Writing 101**](assets/english-writing-101.mp4) ·
+[Watch **English Writing 101**](assets/english-writing-101-clawd.mp4) ·
 [Film credits](docs/english-writing-101.md)
 
 Same brief and task. Two fresh runs. Every first output is public and unedited.

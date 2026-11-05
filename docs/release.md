@@ -63,6 +63,12 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 
 ## The launch work after publication
 
+### Pixel Claude correction: 2026-11-05
+
+- The [corrected 28.8-second film](../assets/english-writing-101-clawd.mp4) uses the exact user-supplied pixel character reference instead of the invented rounded robot. Four legs and square eyes are retained; the book pages provide the classroom action. Text, other scenes, timing and mastered audio are unchanged.
+- The [existing X film post was edited](https://x.com/Jazz_from_Korea/status/2118202541955743838). The published UI confirms the latest version, last edited 1:43 PM Asia/Seoul, with the new pixel-character video poster and Made with AI. X retains the [original version](https://x.com/Jazz_from_Korea/status/2118194618357711271) in its edit history. No additional independent post was published for this correction.
+- All seven HyperFrames gates pass, decoded film frames were inspected, and original/corrected AAC stream hashes match. [Current media and provenance record](../launch/english-writing-101-clawd-media.json). The README now links the corrected master.
+
 ### English Writing 101 and README update: 2026-11-05
 
 - Source [d883c48](https://github.com/soohanjazzyun/landing-page-lab/commit/d883c48c7e768ead8a5df23ac916a8df508521c2) adds the [28.8-second film](../assets/english-writing-101.mp4), poster, provenance, actual audio measurements and the [three-skill README review](readme-review-2026-11-05.md). The README now explains input/output, reader fit, first-use task and the user's own-agent requirement before deeper options. About description and homepage were updated and read back.

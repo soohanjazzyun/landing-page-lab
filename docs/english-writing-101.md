@@ -1,11 +1,21 @@
 # English Writing 101
 
-Completed 2026-11-05. [Watch the film](../assets/english-writing-101.mp4).
+Completed 2026-11-05. [Watch the corrected film](../assets/english-writing-101-clawd.mp4).
 
-The owner-selected opening is an animated student called Claude reading an
-English Writing 101 book. It is a dramatized metaphor for better instructions,
-not a recording of Claude, a fine-tuning event, or an Anthropic mascot.
-The illustration and its rig are original to this project.
+The corrected opening uses the exact pixel Claude reference supplied by Jazz,
+beside an English Writing 101 book. The source PNG is embedded unchanged;
+its square eyes, block silhouette and four legs are preserved. The mascot
+leans gently while the book pages move. The classroom is a dramatized metaphor
+for better instructions, not a recording of Claude or a fine-tuning event.
+The reference character is not an original project illustration, and no
+Anthropic affiliation or endorsement is claimed.
+
+This replaces the invented rounded robot in the first version. The existing
+[X post was edited](https://x.com/Jazz_from_Korea/status/2118202541955743838), with a displayed last edit of
+1:43 PM on Nov 5, 2026, Asia/Seoul. X retains the
+[previous version](https://x.com/Jazz_from_Korea/status/2118194618357711271) in its edit history; this correction
+did not create another independent post. The hook, GitHub link, optional star
+request, remaining scenes, timing and mastered audio are unchanged.
 
 The book becomes a product brief. Story, Audience, and Offer then lead to the
 actual preserved Mina Studio hero outputs. The three page images are unchanged
@@ -21,7 +31,9 @@ and Hormozi are credited inspirations, without affiliation or endorsement.
 ## Picture and timing
 
 - 1080 × 1080, 30 fps, 28.8 seconds, 864 frames, H.264 video and stereo AAC 48 kHz.
-- Delivery file: 2,608,397 bytes; SHA-256 `661a8a25835e35d7a3886e4f19c66f66c42448cb919496398a2b1cdbeda1859f`.
+- Corrected delivery file: 2,508,507 bytes; SHA-256 `c3fbaf2250e287a4651c98bb5fafbcc2dd02dd5203c94b6f8f13911b3a5a6485`.
+- [Corrected media record](../launch/english-writing-101-clawd-media.json). The
+  [original media record](../launch/english-writing-101-media.json) is retained as history.
 - Music grid: 150 BPM, 12 frames per beat. Source excerpt starts at 25.635 seconds.
   All 73 expected grid points in the selected interval are within 0.01 seconds
   of detected source beats. Scene cuts follow that grid; smaller acting moves
@@ -37,6 +49,11 @@ HyperFrames lint, runtime, layout, motion, contrast, craft and audio gates pass.
 A reviewer saw only the storyboard and review sheets. Its contact/continuity
 findings were fixed, then affected frames were recaptured. The final MP4 was
 decoded at the opening, every content section, and the closing frame.
+After the character correction, all seven HyperFrames gates passed again.
+The corrected encoded MP4 was decoded and visually checked at the opening,
+all content sections and the closing. Its AAC stream hash matches the
+previous mastered audio exactly. The latest X version and its newly generated
+pixel-character poster were verified in the published UI.
 The actual hero headlines have four-second reading windows; the comparison
 body text is an overview and is not intended as a full phone-sized read.
 

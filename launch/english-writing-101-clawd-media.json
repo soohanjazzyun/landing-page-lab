@@ -1,0 +1,32 @@
+{
+  "file": "assets/english-writing-101-clawd.mp4",
+  "sha256": "c3fbaf2250e287a4651c98bb5fafbcc2dd02dd5203c94b6f8f13911b3a5a6485",
+  "bytes": 2508507,
+  "duration_s": 28.8,
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "video_frames": 864,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "poster": "assets/english-writing-101-clawd-poster.png",
+  "poster_sha256": "1b5420d20b84c33f2a93d463424261d38701161ffdff54ad9a15caacffe3c63b",
+  "character_reference": {
+    "origin": "User supplied reference image in this chat",
+    "sha256": "2b0eb94a83639ce80bef6e866e464f9d3a3987fc2185a3c764525366a1cca300",
+    "width": 526,
+    "height": 454,
+    "treatment": "Original PNG bytes preserved; embedded as-is in a native scene crop on the matching background. No regenerated or redrawn mascot. Not an original project character; no Anthropic affiliation claimed."
+  },
+  "supersedes_media_record": "launch/english-writing-101-media.json",
+  "correction": "Supplied pixel Claude reference replaces the invented rounded robot. Other scenes, timing, copy and music unchanged.",
+  "audio_stream_adts_sha256": "c1d37db4ea429cc1fb729a85b454726dd5c0b9b242b8d8e0070c98b9cca9faba",
+  "audio_verification": "Original and corrected masters have identical extracted AAC ADTS stream hashes. Original measurements remain applicable: -14.5 LUFS, -1.5 dBTP, 0 clipped samples. Measured, not listened to.",
+  "public_x_url": "https://x.com/Jazz_from_Korea/status/2118202541955743838",
+  "original_x_version_url": "https://x.com/Jazz_from_Korea/status/2118194618357711271",
+  "displayed_last_edit": "1:43 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+  "verified_at_utc": "2026-11-05T04:51:35.719298Z",
+  "verification": "All seven HyperFrames gates pass; decoded MP4 inspected. Published latest-version UI, exact text, new pixel-character video poster and Made with AI label verified."
+}

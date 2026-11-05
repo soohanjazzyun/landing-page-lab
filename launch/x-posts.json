@@ -1,7 +1,7 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Initial launch, credits reply, 34-second film, 14-second recorded case, paired comparison image post, and English Writing 101 film published. Other calendar posts remain unscheduled drafts. Older post editing was unavailable after the one-hour window.",
+  "publication_status": "Launch films and paired comparison published. English Writing 101 film edited to use the supplied pixel Claude reference; latest version verified. Other calendar posts remain unscheduled drafts.",
   "posts": [
     {
       "id": "launch-a",
@@ -164,12 +164,27 @@
       "status": "published",
       "weighted_characters": 234,
       "text": "I sent Claude back to English Writing 101.\n\nLesson 1: Tell people what the hell you're selling.\n\n3 free landing-page skills:\nStory. Audience. Offer.\n\nSame brief. Actual outputs.\n\nLike the result? Star the repo.\nhttps://github.com/soohanjazzyun/landing-page-lab",
-      "attachment": "assets/english-writing-101.mp4",
-      "notes": "Prior post edit menu lacked Edit post; official one-hour editing limit had elapsed. New film post published within the existing own-account launch authorization and current requested hook/video revision; prior post preserved. Exact prepared hook, direct GitHub link and optional star request verified on timeline and permalink. Native player reports 1080x1080 and about 28.84 seconds. Made with AI label visible. No performance conclusion claimed.",
-      "public_url": "https://x.com/Jazz_from_Korea/status/2118194618357711271",
-      "verified_at_utc": "2026-11-05T04:16:56.641029Z",
-      "displayed_publication_time": "1:12 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)"
+      "attachment": "assets/english-writing-101-clawd.mp4",
+      "notes": "Initial English101 film was published separately after the earlier image post edit window expired; that earlier post remains preserved. This film post was subsequently edited within its available window to replace the invented robot with the exact supplied pixel Claude reference. Update succeeded; X latest-version UI and new pixel-character video poster verified. Hook, direct GitHub link, optional star request, audio and remaining scenes unchanged. Made with AI visible. No additional independent post or performance conclusion.",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2118202541955743838",
+      "verified_at_utc": "2026-11-05T04:51:35.719298Z",
+      "displayed_publication_time": "1:12 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+      "original_public_url": "https://x.com/Jazz_from_Korea/status/2118194618357711271",
+      "displayed_last_edit": "1:43 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+      "edit_history": [
+        {
+          "public_url": "https://x.com/Jazz_from_Korea/status/2118194618357711271",
+          "attachment": "assets/english-writing-101.mp4",
+          "displayed_publication_time": "1:12 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)"
+        },
+        {
+          "public_url": "https://x.com/Jazz_from_Korea/status/2118202541955743838",
+          "attachment": "assets/english-writing-101-clawd.mp4",
+          "displayed_last_edit": "1:43 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+          "verified_at_utc": "2026-11-05T04:51:35.719298Z"
+        }
+      ]
     }
   ],
-  "updated_on": "2026-11-04"
+  "updated_on": "2026-11-05"
 }

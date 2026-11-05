@@ -17,6 +17,13 @@ This replaces the invented rounded robot in the first version. The existing
 did not create another independent post. The hook, GitHub link, optional star
 request, remaining scenes, timing and mastered audio are unchanged.
 
+After Jazz clarified that an edit would leave the film on the older post,
+the corrected film was also [published as a new independent post](https://x.com/Jazz_from_Korea/status/2118205910397165913).
+The new post shows 1:56 PM on Nov 5, 2026, Asia/Seoul, the selected opening,
+direct GitHub link, optional star request, native video and Made with AI.
+The earlier publication and edit remain preserved. This records publication,
+not evidence that a new post gains more reach.
+
 The book becomes a product brief. Story, Audience, and Offer then lead to the
 actual preserved Mina Studio hero outputs. The three page images are unchanged
 screenshots of the [live comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/), captured on 2026-11-05.

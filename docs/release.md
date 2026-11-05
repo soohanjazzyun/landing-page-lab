@@ -63,6 +63,11 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 
 ## The launch work after publication
 
+### Fresh corrected-film post: 2026-11-05
+
+- After Jazz objected to using an existing post with stalled attention, the corrected pixel Claude film was [published as a new independent X post](https://x.com/Jazz_from_Korea/status/2118205910397165913). The selected hook, three skills, direct GitHub link and optional star request remain.
+- The composer reported the corrected MP4 Ready and returned a success message after Post. The home timeline and dedicated permalink verify native 28.8-second playback, Made with AI and a displayed 1:56 PM Asia/Seoul publication time. Earlier posts remain preserved. This records a new publication, with no reach or growth result inferred.
+
 ### Pixel Claude correction: 2026-11-05
 
 - The [corrected 28.8-second film](../assets/english-writing-101-clawd.mp4) uses the exact user-supplied pixel character reference instead of the invented rounded robot. Four legs and square eyes are retained; the book pages provide the classroom action. Text, other scenes, timing and mastered audio are unchanged.

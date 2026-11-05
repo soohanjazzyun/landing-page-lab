@@ -1,7 +1,7 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Launch films and paired comparison published. English Writing 101 film edited to use the supplied pixel Claude reference; latest version verified. Other calendar posts remain unscheduled drafts.",
+  "publication_status": "Launch films and paired comparison published. A fresh English Writing 101 post with corrected pixel Claude film was published at 1:56 PM Nov5 Asia/Seoul; earlier edited post is preserved. Other calendar posts remain unscheduled drafts.",
   "posts": [
     {
       "id": "launch-a",
@@ -184,7 +184,20 @@
           "verified_at_utc": "2026-11-05T04:51:35.719298Z"
         }
       ]
+    },
+    {
+      "id": "english-writing-101-fresh",
+      "label": "Fresh launch with corrected pixel Claude film",
+      "status": "published",
+      "text": "I sent Claude back to English Writing 101.\n\nLesson 1: Tell people what the hell you're selling.\n\n3 free landing-page skills:\nStory. Audience. Offer.\n\nSame brief. Actual outputs.\n\nLike the result? Star the repo.\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "attachment": "assets/english-writing-101-clawd.mp4",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2118205910397165913",
+      "verified_at_utc": "2026-11-05T04:57:55.057747Z",
+      "displayed_publication_time": "1:56 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+      "ai_disclosure": "Made with AI enabled and visible in published UI",
+      "notes": "Published as a new independent post after Jazz objected to updating an existing post with stalled attention. Composer reported corrected MP4 Ready; Post succeeded with Your post was sent. Home timeline and dedicated permalink show opener, all three skills, direct GitHub URL, optional star request and native 28.8-second video. Earlier post and its edit history remain preserved. No fresh reach or performance benefit claimed."
     }
   ],
-  "updated_on": "2026-11-05"
+  "updated_on": "2026-11-05",
+  "current_launch_post_url": "https://x.com/Jazz_from_Korea/status/2118205910397165913"
 }

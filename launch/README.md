@@ -25,6 +25,8 @@ The earlier image post was preserved because its one-hour editing window had
 expired. [Film, music credit and verification](../docs/english-writing-101.md).
 The README and About description were revised using all three local skills.
 
+Following Jazz’s clarification, the corrected film was [published as a fresh independent post](https://x.com/Jazz_from_Korea/status/2118205910397165913) at 1:56 PM on Nov 5, Asia/Seoul. This is the current launch link. The earlier post and its edit history are preserved; no performance advantage is claimed from publication alone.
+
 Three original agent skills tackle three different decisions:
 
 - **Story:** make the product understandable through a customer task, explanation, page sequence, and next step.

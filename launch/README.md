@@ -16,6 +16,13 @@ puts two fresh first outputs beside each other, then offers a one-command instal
 and a small README task. [Recorded runs and limits](../docs/evaluation/paired-mina/README.md).
 Its [own-channel image post](https://x.com/Jazz_from_Korea/status/2117788507553055094) is now published with the prepared hook, ALT description, and Made with AI label. The timeline and permalink were verified on 2026-11-04.
 
+On 2026-11-05, the [English Writing 101 film](https://x.com/Jazz_from_Korea/status/2118194618357711271) was published with the
+owner-selected opening, direct GitHub link, and optional star request. It starts
+with an original animated classroom metaphor, then shows actual recorded outputs.
+The earlier image post was preserved because its one-hour editing window had
+expired. [Film, music credit and verification](../docs/english-writing-101.md).
+The README and About description were revised using all three local skills.
+
 Three original agent skills tackle three different decisions:
 
 - **Story:** make the product understandable through a customer task, explanation, page sequence, and next step.

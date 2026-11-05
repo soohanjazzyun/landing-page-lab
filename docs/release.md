@@ -63,6 +63,13 @@ Verified on 2026-11-03 after the respective actions succeeded. Keep the publishe
 
 ## The launch work after publication
 
+### English Writing 101 and README update: 2026-11-05
+
+- Source [d883c48](https://github.com/soohanjazzyun/landing-page-lab/commit/d883c48c7e768ead8a5df23ac916a8df508521c2) adds the [28.8-second film](../assets/english-writing-101.mp4), poster, provenance, actual audio measurements and the [three-skill README review](readme-review-2026-11-05.md). The README now explains input/output, reader fit, first-use task and the user's own-agent requirement before deeper options. About description and homepage were updated and read back.
+- [New native X video post](https://x.com/Jazz_from_Korea/status/2118194618357711271) opens with the exact requested “I sent Claude back to English Writing 101.” It includes a direct repository link and an optional star request. Native playback, timeline and permalink were verified, with Made with AI and a displayed 1:12 PM Nov 5 Asia/Seoul time. The prior image post remains unchanged because its one-hour editing window expired; the post menu had no Edit post option. [Official limit](https://help.x.com/en/using-x/edit-post).
+- Film checks pass lint/runtime/layout/motion/contrast/craft/audio. The exported file is 1080×1080, 30fps, 864 frames, H.264/AAC48k stereo. Final audio is −14.5 LUFS and −1.5 dBTP with no clipped samples detected. Audio was measured, not listened to. [Full film record and CC BY 4.0 music credit](english-writing-101.md).
+- Root checks passed 160 source files, 41 case-fidelity checks and whitespace. Public immutable film bytes match the local master. Existing static Pages, preserved outputs, skill instructions and the v0.2.0 code tag were not changed by this update. No conversion or star gain is attributed to the film.
+
 ### Result-first paired comparison: 2026-11-04
 
 - Source [ac8035a](https://github.com/soohanjazzyun/landing-page-lab/commit/ac8035a48b9bd22261e2125c468d2092c3378e24) adds the [plain-prompt vs. skills comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/), the exact two first outputs, a one-command install and a small first README task. The README now leads with the real comparison screenshot. Main-site and earlier Mina links reach it.

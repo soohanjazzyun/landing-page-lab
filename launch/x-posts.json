@@ -157,6 +157,15 @@
       "public_url": "https://x.com/Jazz_from_Korea/status/2117788507553055094",
       "verified_at_utc": "2026-11-04T01:19:21.993974Z",
       "displayed_publication_time": "10:18 AM, 2026-11-04, Asia/Seoul (X UI; minute precision)"
+    },
+    {
+      "id": "english-writing-101",
+      "label": "Classroom hook and beat-matched film",
+      "status": "draft",
+      "weighted_characters": 234,
+      "text": "I sent Claude back to English Writing 101.\n\nLesson 1: Tell people what the hell you're selling.\n\n3 free landing-page skills:\nStory. Audience. Offer.\n\nSame brief. Actual outputs.\n\nLike the result? Star the repo.\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "attachment": "assets/english-writing-101.mp4",
+      "notes": "Requested existing-post edit is unavailable after the one-hour window. Prepare a new video post within the existing own-account launch authorization; preserve the prior post. Classroom is a dramatized metaphor; subsequent screens are actual preserved output. Direct GitHub link and optional star CTA."
     }
   ],
   "updated_on": "2026-11-04"

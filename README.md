@@ -1,35 +1,34 @@
 # Landing Page Lab
 
-**Give your coding agent a marketing department.**
+**Give your coding agent a pitch worth building.**
 
-Three open-source agent skills take your product README into landing-page
-directions, copy, and a build handoff: **the story, the audience, and the offer**.
+Turn your product README into three distinct landing-page pitches. Choose a
+direction, then ask your agent for the copy and build handoff. Three free,
+open-source skills for founders building with AI: **Story, Audience, and Offer**.
 
-Created by [Jazz](https://github.com/soohanjazzyun) for solo founders and developers
-building products with AI.
+Start with one hero. Compare the directions. Build the one that fits.
 
 ```sh
 npx skills add soohanjazzyun/landing-page-lab
 ```
 
+Choose your agent and all three skills when prompted. Run them in your own
+coding agent; its normal access and usage requirements apply.
+
 [![One brief: actual plain-prompt and three-skill outputs, with the same portrait and design](assets/plain-vs-skills.png)](https://soohanjazzyun.github.io/landing-page-lab/compare/)
 
-[Compare plain prompt vs. three skills](https://soohanjazzyun.github.io/landing-page-lab/compare/) ·
-[Try it on your README](https://soohanjazzyun.github.io/landing-page-lab/#workbench) ·
-[Watch the 14-second proof clip](assets/mina-studio-proof.mp4) ·
-[Inspect actual independent runs](docs/evaluation.md)
+[**See both actual outputs →**](https://soohanjazzyun.github.io/landing-page-lab/compare/) ·
+[Watch **English Writing 101**](assets/english-writing-101.mp4) ·
+[Film credits](docs/english-writing-101.md)
 
-Two fresh agent runs. Same brief and task. First outputs, no manual copy edits.
-Switch Story, Audience, and Offer to inspect every option in both records.
-The service is fictional and the portrait is AI-generated. This pair shows
-different choices, not a measured winner. [Brief, task, and both outputs](docs/evaluation/paired-mina/README.md).
+Same brief and task. Two fresh runs. Every first output is public and unedited.
+Switch Story, Audience, and Offer to see what each run chose to emphasize.
+The service is fictional and the portrait is AI-generated.
+[Read the brief, task, and raw outputs](docs/evaluation/paired-mina/README.md).
 
-Your agent can build the page. Give it a useful way to decide what that page
-should say, using the facts you actually have.
+## Give your agent one small task
 
-## Try one hero first
-
-After installing all three skills, give your coding agent this small task:
+Paste this with your README:
 
 ```text
 Use landing-page-story, landing-page-resonance, and landing-page-offer
@@ -39,93 +38,80 @@ Keep the product facts. Mark missing evidence. Explain one tradeoff.
 Source: [paste my README]
 ```
 
-## Pick the problem
+You get three ways into the same product:
 
-| Skill | The question it helps answer | Use it when |
+| Lens | The reader's question | What changes |
 | --- | --- | --- |
-| [`landing-page-story`](skills/landing-page-story/SKILL.md) | Can someone explain what this product does and why it helps? | Your homepage reads like a feature list or a company introduction. |
-| [`landing-page-resonance`](skills/landing-page-resonance/SKILL.md) | Will a specific person recognize that this is for them? | Your page addresses everyone and gives nobody a reason to care. |
-| [`landing-page-offer`](skills/landing-page-offer/SKILL.md) | Is the outcome credible and the next step worth the effort? | Benefits sound attractive, but the deliverable, evidence, or commitment is unclear. |
+| [**Story**](skills/landing-page-story/SKILL.md) | What can I do with this? | Lead with the customer's task and show how the product helps. |
+| [**Audience**](skills/landing-page-resonance/SKILL.md) | Is this for someone in my situation? | Lead with a specific reader's situation and the details that matter to them. |
+| [**Offer**](skills/landing-page-offer/SKILL.md) | What do I get, and what do I have to do? | Show what is included, what is required, and what happens after the click. |
 
-These are original workflows informed by published ideas from Donald Miller,
-Seth Godin, and Alex Hormozi. They do not impersonate the authors or reproduce
-an official course. Independent project; no affiliation or endorsement.
-[Credits and boundaries](NOTICE.md) · [Rights review and limitations](docs/rights-review.md).
+Keep the direction that fits your product and your reader. Ask your agent to
+expand it into page copy or carry it into your existing build. The skills
+preserve your product facts, stack, design constraints, and CTA. A hero request
+stays a hero; missing proof stays missing.
 
-## Installation options
+[Prefer a form? Prepare the task in your browser →](https://soohanjazzyun.github.io/landing-page-lab/#workbench)
+The workbench only assembles a prompt locally. Your coding agent does the writing.
 
-The command above lets you choose your agent and skills. To install one directly:
+**If this helps you find your pitch, [star the repository](https://github.com/soohanjazzyun/landing-page-lab)**
+to follow the next cases and improvements.
+
+## Why these three lenses?
+
+A page can explain a feature without helping a reader judge whether it fits
+their situation or is worth trying. Each skill works through a different
+part of that decision, using the evidence in your source.
+
+Story draws on **Donald Miller's _Building a StoryBrand_**. Audience draws on
+**Seth Godin's _This Is Marketing_**. Offer draws on **Alex Hormozi's _$100M Offers_**.
+
+[Jazz](https://github.com/soohanjazzyun) wrote the workflows, examples, evidence
+checks, and build handoffs. This is an independent project, with no affiliation
+or endorsement. [Credits](NOTICE.md) · [Source and rights review](docs/rights-review.md).
+
+## See it before you install
+
+- [Plain prompt vs. three skills](https://soohanjazzyun.github.io/landing-page-lab/compare/): both real first outputs, every lens, and the records behind them.
+- [One product, three pitches](https://soohanjazzyun.github.io/landing-page-lab/): nine authored directions for three fictional software products.
+- [Earlier Mina Studio run](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/): the actual output behind the [14-second clip](assets/mina-studio-proof.mp4).
+
+The examples show the choices the skills can help make. They are not customer
+results or evidence of higher conversion. [Actual trials and limits](docs/evaluation.md).
+
+## Install one skill, or take the files
+
+Each skill works on its own. For Story only:
 
 ```sh
 npx skills add soohanjazzyun/landing-page-lab --skill landing-page-story
 ```
 
-Then give your coding agent a task:
+Then keep the request narrow:
 
 ```text
-Use landing-page-story, landing-page-resonance, and landing-page-offer
-on this product README. Return three distinct homepage directions from the
-same facts. Explain the tradeoffs, preserve my stack and primary CTA,
-and mark anything that needs evidence. Source: [attach your README]
+Use landing-page-story to rewrite only my homepage hero.
+Keep the product facts, design, and existing CTA. Source: [attach copy]
 ```
 
-Or keep the work narrow:
+The skills use the plain-text Agent Skills format. A clean public installation
+of all three into Codex has been verified. Other compatible assistants have
+not been separately behavior-tested. This project provides no hosted model
+or API service; use the agent you already work with.
 
-```text
-Use landing-page-resonance to rewrite only this homepage hero for solo
-consultants. Keep the product facts, design, and CTA. Source: [attach copy]
-```
+Individual ZIPs and the full three-skill bundle are in [downloads](site/downloads/).
+Browse on skills.sh: [Story](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-story) · [Audience](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-resonance) · [Offer](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-offer).
 
-The skills are plain text in the Agent Skills format. Codex discovery and
-installation are verified locally; other compatible assistants have not been
-separately behavior-tested. No hosted model, API key, or account is provided
-or required by this project. Your chosen agent may have its own requirements.
+<details>
+<summary>Install from a local checkout</summary>
 
-The repository and interactive demo are public. A clean remote installation
-of all three skills into Codex has been verified. To install a local checkout,
-run this from your own product's project folder:
+Run this from your product's project folder:
 
 ```sh
 npx skills add /path/to/landing-page-lab --agent codex --copy
 ```
 
-Individual portable ZIPs and a full three-skill bundle are in `site/downloads/`.
-
-Browse on skills.sh: [Story](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-story) · [Audience](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-resonance) · [Offer](https://www.skills.sh/soohanjazzyun/landing-page-lab/landing-page-offer).
-
-## See the difference
-
-The demo holds product facts and visual design constant while you switch
-between **Before, Story, Audience, and Offer**. Inspect the reasoning,
-page structure, copy, and implementation handoff for each direction.
-
-| Fictional product | What it actually does |
-| --- | --- |
-| [RelayNote](examples/relaynote/README.md) | Organizes customer-call notes and links excerpts back to their source. |
-| [ShipWatch](examples/shipwatch/README.md) | Shows when scheduled jobs miss a heartbeat; it does not retry the jobs. |
-| [Slotwise](examples/slotwise/README.md) | Lets clients choose available appointment slots in their time zone. |
-
-The three examples above are **authored illustrations**. The
-[paired Mina comparison](https://soohanjazzyun.github.io/landing-page-lab/compare/)
-renders two actual runs on the same fictional brief and task. The earlier
-[single-run Mina case](https://soohanjazzyun.github.io/landing-page-lab/cases/mina-studio/)
-is the source of the 14-second clip. These are separate recorded tasks, not
-customer results, conversion experiments, or model benchmarks. Their records
-and limitations are documented in [evaluation](docs/evaluation.md).
-
-The local prompt composer prepares a task for your agent. It does not analyze
-your product with a model, upload your README, or generate marketing copy itself.
-
-## What you get
-
-- A factual basis, assumptions, and proof gaps.
-- A distinct direction with a reason to use it and a tradeoff.
-- Page structure and English copy appropriate to your request.
-- A build handoff that preserves your chosen stack, CTA, and design constraints.
-
-A request for a hero stays a hero. A missing testimonial stays missing.
-A persuasive offer does not justify inventing a guarantee, discount, integration,
-customer count, or time saving.
+</details>
 
 ## Prepare a portable task locally
 

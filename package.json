@@ -2,7 +2,7 @@
   "name": "landing-page-lab",
   "version": "0.2.0",
   "private": true,
-  "description": "Same product, three distinct landing-page directions: story, audience, and offer. Independent open-source agent skills by Jazz.",
+  "description": "Turn your README into three landing-page pitches. Three free agent skills for Story, Audience, and Offer, by Jazz.",
   "type": "module",
   "engines": {
     "node": ">=22"

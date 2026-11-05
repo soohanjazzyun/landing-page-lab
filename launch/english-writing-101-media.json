@@ -1,0 +1,29 @@
+{
+  "file": "assets/english-writing-101.mp4",
+  "sha256": "661a8a25835e35d7a3886e4f19c66f66c42448cb919496398a2b1cdbeda1859f",
+  "bytes": 2608397,
+  "duration_s": 28.8,
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "video_frames": 864,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "audio": {
+    "lufsIntegrated": -14.5,
+    "lufsShortTermMax": -13.9,
+    "samplePeakDb": -1.6,
+    "truePeakDb": -1.5,
+    "clipping": {
+      "count": 0,
+      "firstAt": null
+    }
+  },
+  "music_source_offset_s": 25.635,
+  "bpm": 150,
+  "frames_per_beat": 12,
+  "poster_sha256": "3cc254fd936f1c8c7f6743b64457adda8039ac6093e779996a299e523462b6d2",
+  "audio_review": "Measured, not listened to."
+}

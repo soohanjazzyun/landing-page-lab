@@ -1,7 +1,7 @@
 {
   "prepared_on": "2026-11-03",
   "url_weight": 23,
-  "publication_status": "Launch films and paired comparison published. A fresh English Writing 101 post with corrected pixel Claude film was published at 1:56 PM Nov5 Asia/Seoul; earlier edited post is preserved. Other calendar posts remain unscheduled drafts.",
+  "publication_status": "Launch media published. Current outcome-led post opens with Finally, Claude writes like someone’s paying it $200k a year., published at 2:15 PM Nov5 Asia/Seoul with the corrected pixel Claude film. Prior posts remain preserved; other calendar items remain unscheduled drafts.",
   "posts": [
     {
       "id": "launch-a",
@@ -196,8 +196,20 @@
       "displayed_publication_time": "1:56 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
       "ai_disclosure": "Made with AI enabled and visible in published UI",
       "notes": "Published as a new independent post after Jazz objected to updating an existing post with stalled attention. Composer reported corrected MP4 Ready; Post succeeded with Your post was sent. Home timeline and dedicated permalink show opener, all three skills, direct GitHub URL, optional star request and native 28.8-second video. Earlier post and its edit history remain preserved. No fresh reach or performance benefit claimed."
+    },
+    {
+      "id": "professional-copywriter-result",
+      "label": "Outcome-led professional copywriter hook",
+      "status": "published",
+      "text": "Finally, Claude writes like someone’s paying it $200k a year.\n\nYour README → 3 pitches.\nWhat you sell. Who it’s for. Why it’s worth buying.\n\nFree. Open source.\n\nLike the result? Star the repo.\nhttps://github.com/soohanjazzyun/landing-page-lab",
+      "attachment": "assets/english-writing-101-clawd.mp4",
+      "public_url": "https://x.com/Jazz_from_Korea/status/2118210609179398252",
+      "verified_at_utc": "2026-11-05T05:16:29.938332Z",
+      "displayed_publication_time": "2:15 PM, 2026-11-05, Asia/Seoul (X UI; minute precision)",
+      "ai_disclosure": "Made with AI enabled and visible in the published UI",
+      "notes": "Jazz clarified that landing-page skills is a dated category-led pitch, not that the project itself was old. The new independent post leads with a professional-copywriter salary comparison, then describes README input and three pitches. The $200k line is a rhetorical quality comparison, not a measured salary saving, real hire, controlled writer benchmark or endorsement. Corrected pixel Claude MP4 reported Ready before Post. Success toast, profile entry and dedicated permalink verified. Earlier posts preserved; no performance effect claimed."
     }
   ],
   "updated_on": "2026-11-05",
-  "current_launch_post_url": "https://x.com/Jazz_from_Korea/status/2118205910397165913"
+  "current_launch_post_url": "https://x.com/Jazz_from_Korea/status/2118210609179398252"
 }
